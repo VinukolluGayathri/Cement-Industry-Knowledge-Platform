@@ -10,3 +10,7 @@ networkx
 plotly
 python-dotenv
 google-generativeai
+python-docx
+langchain-text-splitters
+docx2txt
+langchain-chroma

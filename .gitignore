@@ -13,3 +13,58 @@ database/chroma_db/
 
 # Uploaded files
 uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+env/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Chroma Vector Database
+database/chroma_db/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+.pytest_cache/
+
+# Build
+build/
+dist/
+
+# Coverage
+.coverage
+htmlcov/
+
+# HuggingFace cache (optional)
+.cache/
+
+# Model cache (optional)
+models/
+
+# Streamlit cache
+.streamlit/secrets.toml
