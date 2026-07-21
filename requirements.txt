@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-community
+langchain-google-genai
+chromadb
+sentence-transformers
+pypdf
+pandas
+networkx
+plotly
+python-dotenv
+google-generativeai
