@@ -1,0 +1,501 @@
+WorkOrderID,EquipmentID,EquipmentName,MaintenanceDate,MaintenanceType,FailureMode,RootCause,ActionTaken,SparePartsUsed,Technician,Downtime_Hours,Cost_INR,Priority,Status,Comments
+WO-00001,RK001,Rotary Kiln,2024-06-20,Emergency,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Anil,25,271136,Low,Pending,Awaiting spare parts
+WO-00002,AC001,Air Compressor,2023-04-05,Corrective,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Ravi,13,283491,High,In Progress,Awaiting spare parts
+WO-00003,JC001,Jaw Crusher,2023-06-12,Predictive,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Ajay,12,368255,Critical,Pending,Job closed as per standard checklist
+WO-00004,VRM001,Vertical Roller Mill,2023-02-15,Predictive,Gearbox Noise,Gear Wear,Inspect & Replace Gear Oil,Gear Oil ISO VG 320,Ravi,8,74014,Low,Pending,Job closed as per standard checklist
+WO-00005,AC001,Air Compressor,2024-02-11,Preventive,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Priya,37,63101,Critical,Pending,Job closed as per standard checklist
+WO-00006,JC001,Jaw Crusher,2023-03-16,Corrective,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Mahesh,5,285182,Medium,Deferred,Job closed as per standard checklist
+WO-00007,ENG001,Cummins Engine,2024-03-03,Routine,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Rahul,23,169156,High,Deferred,Awaiting spare parts
+WO-00008,JC001,Jaw Crusher,2023-11-21,Predictive,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Suresh,25,420185,High,Pending,Job closed as per standard checklist
+WO-00009,RK001,Rotary Kiln,2023-01-15,Preventive,Tyre Migration,Shell Deformation,Adjust Tyre Lubrication,Graphite Lubricant,Kiran,3,243053,Critical,Pending,Job closed as per standard checklist
+WO-00010,RK001,Rotary Kiln,2023-01-18,Emergency,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Priya,8,270118,Low,Completed,Job closed as per standard checklist
+WO-00011,AC001,Air Compressor,2023-07-30,Preventive,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Ravi,14,383087,Critical,Deferred,Job closed as per standard checklist
+WO-00012,ENG001,Cummins Engine,2024-02-21,Predictive,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Ravi,18,147227,Critical,Completed,Awaiting spare parts
+WO-00013,RK001,Rotary Kiln,2023-04-07,Routine,Support Roller Wear,Uneven Load,Regrind Support Roller,—,Kiran,27,35086,Medium,Pending,Job closed as per standard checklist
+WO-00014,BC001,Belt Conveyor,2023-07-22,Emergency,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Rahul,30,226616,Critical,Completed,Job closed as per standard checklist
+WO-00015,BC001,Belt Conveyor,2023-12-27,Emergency,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Rahul,12,494383,Critical,Completed,Job closed as per standard checklist
+WO-00016,BF001,Bag Filter,2023-08-30,Routine,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Kiran,2,146415,Low,Completed,Job closed as per standard checklist
+WO-00017,BM001,Ball Mill,2023-09-24,Predictive,Grinding Media Wear,Excessive Operation,Replace Grinding Media (3.5 Tons),High Chrome Grinding Balls,Ravi,17,312280,Medium,In Progress,Job closed as per standard checklist
+WO-00018,AC001,Air Compressor,2023-08-18,Corrective,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Kiran,6,297908,Critical,In Progress,Job closed as per standard checklist
+WO-00019,AC001,Air Compressor,2023-07-22,Emergency,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Ravi,12,316578,Low,Deferred,Awaiting spare parts
+WO-00020,AC001,Air Compressor,2023-07-02,Emergency,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Priya,39,464291,Medium,Pending,Job closed as per standard checklist
+WO-00021,AC001,Air Compressor,2023-09-30,Routine,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Ravi,15,177660,High,Pending,Job closed as per standard checklist
+WO-00022,JC001,Jaw Crusher,2024-09-17,Corrective,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Rahul,10,494540,High,Pending,Job closed as per standard checklist
+WO-00023,VRM001,Vertical Roller Mill,2024-06-23,Routine,Gearbox Noise,Gear Wear,Inspect & Replace Gear Oil,Gear Oil ISO VG 320,Mahesh,37,191447,Medium,Pending,Job closed as per standard checklist
+WO-00024,JC001,Jaw Crusher,2023-10-27,Emergency,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Anil,31,216471,High,Completed,Job closed as per standard checklist
+WO-00025,ENG001,Cummins Engine,2023-08-02,Predictive,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Ravi,42,353815,Critical,Completed,Awaiting spare parts
+WO-00026,BC001,Belt Conveyor,2023-07-31,Preventive,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Ravi,34,404038,High,In Progress,Awaiting spare parts
+WO-00027,BE001,Bucket Elevator,2023-11-22,Predictive,Chain Wear,Fatigue,Replace Chain (Dual Strand),Elevator Chain P=400,Mahesh,34,367216,High,In Progress,Job closed as per standard checklist
+WO-00028,JC001,Jaw Crusher,2023-04-05,Emergency,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Rahul,37,297138,Medium,Pending,Job closed as per standard checklist
+WO-00029,PU001,Centrifugal Pump,2023-03-12,Corrective,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Anil,45,128338,Critical,Deferred,Job closed as per standard checklist
+WO-00030,BF001,Bag Filter,2024-09-04,Routine,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Kiran,35,485179,Critical,Deferred,Job closed as per standard checklist
+WO-00031,AC001,Air Compressor,2024-02-09,Predictive,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Ajay,2,219965,Critical,Pending,Job closed as per standard checklist
+WO-00032,AC001,Air Compressor,2023-12-29,Routine,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Suresh,47,182085,Low,Completed,Job closed as per standard checklist
+WO-00033,BE001,Bucket Elevator,2023-10-02,Predictive,Chain Wear,Fatigue,Replace Chain (Dual Strand),Elevator Chain P=400,Priya,44,399452,Medium,In Progress,Job closed as per standard checklist
+WO-00034,BC001,Belt Conveyor,2023-05-16,Corrective,Idler Jam,Bearing Failure,Replace Idler Roller,Carrying Idler,Ravi,1,115498,Low,Completed,Job closed as per standard checklist
+WO-00035,PU001,Centrifugal Pump,2024-08-22,Corrective,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Kiran,28,312943,Low,Deferred,Job closed as per standard checklist
+WO-00036,PU001,Centrifugal Pump,2023-10-23,Emergency,Seal Leakage,Seal Wear,Replace Mechanical Seal,Mechanical Seal Type-21,Suresh,25,390966,Low,In Progress,Job closed as per standard checklist
+WO-00037,PU001,Centrifugal Pump,2023-06-26,Preventive,Vibration,Shaft Misalignment,Perform Laser Alignment,—,Mahesh,9,439621,Critical,Completed,Job closed as per standard checklist
+WO-00038,PU001,Centrifugal Pump,2024-05-24,Routine,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Ravi,40,19526,Low,Deferred,Job closed as per standard checklist
+WO-00039,VRM001,Vertical Roller Mill,2023-01-05,Corrective,Table Liner Wear,Abrasion,Replace Table Liner Segment,Liner Segment,Mahesh,47,260652,Critical,In Progress,Job closed as per standard checklist
+WO-00040,ENG001,Cummins Engine,2024-09-17,Predictive,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Mahesh,34,173167,Medium,Pending,Awaiting spare parts
+WO-00041,JC001,Jaw Crusher,2024-04-25,Corrective,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Rahul,45,184881,Critical,Deferred,Job closed as per standard checklist
+WO-00042,RK001,Rotary Kiln,2023-02-01,Emergency,Drive System Failure,Gear Wear,Inspect Drive & Replace Pinion,Kiln Pinion Gear,Rahul,33,219022,Low,Deferred,Job closed as per standard checklist
+WO-00043,BF001,Bag Filter,2023-07-13,Predictive,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Ravi,46,163784,High,In Progress,Job closed as per standard checklist
+WO-00044,BF001,Bag Filter,2024-09-01,Predictive,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Suresh,38,313267,Medium,Deferred,Job closed as per standard checklist
+WO-00045,ENG001,Cummins Engine,2023-11-16,Predictive,Battery Failure,Low Voltage,Replace Battery Bank,Battery 12V 200Ah,Priya,6,61833,High,Completed,Job closed as per standard checklist
+WO-00046,BC001,Belt Conveyor,2023-06-26,Preventive,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Mahesh,10,150039,Critical,In Progress,Job closed as per standard checklist
+WO-00047,JC001,Jaw Crusher,2023-12-23,Routine,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Anil,25,485069,Low,In Progress,Awaiting spare parts
+WO-00048,BC001,Belt Conveyor,2023-06-28,Routine,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Kiran,34,279228,Low,Pending,Awaiting spare parts
+WO-00049,JC001,Jaw Crusher,2024-07-28,Emergency,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Priya,24,455239,High,Deferred,Job closed as per standard checklist
+WO-00050,RK001,Rotary Kiln,2024-07-28,Emergency,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Kiran,40,252341,Critical,Completed,Awaiting spare parts
+WO-00051,VRM001,Vertical Roller Mill,2023-02-25,Routine,Roller Wear,High Material Load,Replace Roller Tyre,Roller Tyre Assembly,Suresh,45,229265,Medium,In Progress,Awaiting spare parts
+WO-00052,BC001,Belt Conveyor,2023-05-05,Predictive,Idler Jam,Bearing Failure,Replace Idler Roller,Carrying Idler,Ravi,33,60518,Low,Completed,Job closed as per standard checklist
+WO-00053,AC001,Air Compressor,2024-03-17,Corrective,Unloader Fault,Pressure Switch Failure,Replace Pressure Switch,Pressure Switch,Kiran,34,457536,Low,Pending,Job closed as per standard checklist
+WO-00054,BE001,Bucket Elevator,2023-11-12,Emergency,Belt Slippage,Tension Loss,Adjust Take-up Weight,—,Priya,21,369146,Medium,In Progress,Job closed as per standard checklist
+WO-00055,AC001,Air Compressor,2024-02-21,Preventive,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Ravi,33,467401,Critical,Completed,Job closed as per standard checklist
+WO-00056,BM001,Ball Mill,2023-03-15,Preventive,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Priya,11,438623,Medium,Pending,Job closed as per standard checklist
+WO-00057,JC001,Jaw Crusher,2024-05-07,Emergency,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Ravi,30,184112,Low,Deferred,Job closed as per standard checklist
+WO-00058,JC001,Jaw Crusher,2023-06-09,Corrective,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Kiran,45,139073,Low,In Progress,Awaiting spare parts
+WO-00059,BC001,Belt Conveyor,2023-06-02,Emergency,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Rahul,45,430903,Critical,Pending,Job closed as per standard checklist
+WO-00060,VRM001,Vertical Roller Mill,2024-03-03,Corrective,Roller Wear,High Material Load,Replace Roller Tyre,Roller Tyre Assembly,Suresh,48,493845,Low,Deferred,Awaiting spare parts
+WO-00061,ENG001,Cummins Engine,2024-08-02,Predictive,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Anil,32,428675,High,Deferred,Job closed as per standard checklist
+WO-00062,ENG001,Cummins Engine,2024-08-26,Routine,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Priya,13,159486,High,In Progress,Job closed as per standard checklist
+WO-00063,BM001,Ball Mill,2023-03-04,Preventive,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Ravi,28,269412,Low,In Progress,Job closed as per standard checklist
+WO-00064,JC001,Jaw Crusher,2023-04-16,Routine,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Anil,30,273739,Medium,Deferred,Job closed as per standard checklist
+WO-00065,BM001,Ball Mill,2024-02-17,Routine,Grinding Media Wear,Excessive Operation,Replace Grinding Media (3.5 Tons),High Chrome Grinding Balls,Ravi,16,115127,High,Pending,Awaiting spare parts
+WO-00066,BC001,Belt Conveyor,2024-12-18,Emergency,Gearbox Leak,Seal Failure,Replace Gearbox Seal,Gearbox Oil Seal,Mahesh,11,310061,Low,Pending,Job closed as per standard checklist
+WO-00067,BC001,Belt Conveyor,2024-04-26,Emergency,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Mahesh,39,157171,Low,Deferred,Job closed as per standard checklist
+WO-00068,BC001,Belt Conveyor,2023-07-05,Predictive,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Rahul,41,37833,Critical,In Progress,Job closed as per standard checklist
+WO-00069,BE001,Bucket Elevator,2024-10-03,Corrective,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Suresh,4,64088,Medium,Pending,Awaiting spare parts
+WO-00070,RK001,Rotary Kiln,2023-10-08,Routine,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Priya,29,364870,Critical,Pending,Awaiting spare parts
+WO-00071,BF001,Bag Filter,2024-08-23,Preventive,Solenoid Valve Fault,Coil Burnout,Replace Solenoid Valve,Solenoid Valve 1 inch,Ravi,38,470626,Medium,In Progress,Job closed as per standard checklist
+WO-00072,BC001,Belt Conveyor,2023-01-17,Routine,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Suresh,38,225093,Low,Completed,Job closed as per standard checklist
+WO-00073,JC001,Jaw Crusher,2023-08-10,Predictive,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Rahul,24,446195,High,Completed,Job closed as per standard checklist
+WO-00074,BF001,Bag Filter,2024-02-15,Predictive,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Ravi,39,284936,Medium,Deferred,Job closed as per standard checklist
+WO-00075,BC001,Belt Conveyor,2024-02-16,Corrective,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Ajay,4,221935,Medium,In Progress,Job closed as per standard checklist
+WO-00076,BE001,Bucket Elevator,2023-01-13,Corrective,Motor Overheating,Cooling Issue,Service Motor & Clean Vent,—,Ajay,9,438829,Critical,Completed,Job closed as per standard checklist
+WO-00077,ENG001,Cummins Engine,2024-12-19,Corrective,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Ravi,42,251943,High,Completed,Job closed as per standard checklist
+WO-00078,BM001,Ball Mill,2023-11-14,Emergency,Gearbox Oil Leak,Worn Seal,Replace Gearbox Seal & Top-up Oil,Oil Seal 200x240x15,Mahesh,47,44758,High,In Progress,Job closed as per standard checklist
+WO-00079,BE001,Bucket Elevator,2024-04-18,Preventive,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Ajay,22,341030,Critical,Deferred,Job closed as per standard checklist
+WO-00080,BE001,Bucket Elevator,2023-01-15,Routine,Motor Overheating,Cooling Issue,Service Motor & Clean Vent,—,Kiran,36,427917,Low,In Progress,Job closed as per standard checklist
+WO-00081,BE001,Bucket Elevator,2024-02-19,Routine,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Ravi,2,73292,Low,Pending,Awaiting spare parts
+WO-00082,RK001,Rotary Kiln,2023-08-01,Emergency,Tyre Migration,Shell Deformation,Adjust Tyre Lubrication,Graphite Lubricant,Anil,19,373185,Medium,Completed,Job closed as per standard checklist
+WO-00083,RK001,Rotary Kiln,2023-01-23,Emergency,Drive System Failure,Gear Wear,Inspect Drive & Replace Pinion,Kiln Pinion Gear,Mahesh,4,480828,Low,Completed,Job closed as per standard checklist
+WO-00084,JC001,Jaw Crusher,2024-01-18,Preventive,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Rahul,8,392502,Critical,Pending,Job closed as per standard checklist
+WO-00085,JC001,Jaw Crusher,2024-09-27,Predictive,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Suresh,32,71173,High,Pending,Awaiting spare parts
+WO-00086,RK001,Rotary Kiln,2024-03-29,Preventive,Drive System Failure,Gear Wear,Inspect Drive & Replace Pinion,Kiln Pinion Gear,Kiran,48,336840,Low,Completed,Awaiting spare parts
+WO-00087,ENG001,Cummins Engine,2024-02-24,Preventive,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Anil,40,437627,Medium,Completed,Job closed as per standard checklist
+WO-00088,ENG001,Cummins Engine,2023-08-09,Predictive,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Anil,34,27553,Critical,Completed,Job closed as per standard checklist
+WO-00089,ENG001,Cummins Engine,2023-09-19,Predictive,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Priya,28,99482,Low,In Progress,Job closed as per standard checklist
+WO-00090,BM001,Ball Mill,2023-10-30,Emergency,Bearing Failure,Poor Lubrication,Replace Bearing & Flush Lubrication System,Spherical Roller Bearing 23264,Rahul,16,359578,High,Pending,Job closed as per standard checklist
+WO-00091,JC001,Jaw Crusher,2024-04-28,Corrective,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Ajay,37,255235,Critical,In Progress,Awaiting spare parts
+WO-00092,BE001,Bucket Elevator,2023-07-06,Routine,Chain Wear,Fatigue,Replace Chain (Dual Strand),Elevator Chain P=400,Priya,38,173599,Low,Deferred,Job closed as per standard checklist
+WO-00093,BM001,Ball Mill,2023-09-10,Emergency,Motor Overheating,Cooling Fan Failure,Clean Cooling System & Replace Fan,Cooling Fan Assembly,Ajay,14,369293,Medium,In Progress,Job closed as per standard checklist
+WO-00094,BC001,Belt Conveyor,2024-04-27,Predictive,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Rahul,25,261458,Critical,Deferred,Job closed as per standard checklist
+WO-00095,ENG001,Cummins Engine,2023-08-11,Routine,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Anil,13,301885,Low,In Progress,Job closed as per standard checklist
+WO-00096,BM001,Ball Mill,2023-07-25,Routine,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Mahesh,8,310784,Critical,Pending,Job closed as per standard checklist
+WO-00097,ENG001,Cummins Engine,2024-07-21,Emergency,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Anil,6,477941,High,In Progress,Job closed as per standard checklist
+WO-00098,BF001,Bag Filter,2024-08-16,Preventive,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Ajay,11,164418,Medium,Completed,Job closed as per standard checklist
+WO-00099,JC001,Jaw Crusher,2023-03-31,Predictive,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Ajay,8,407306,Low,In Progress,Job closed as per standard checklist
+WO-00100,ENG001,Cummins Engine,2023-01-09,Predictive,Battery Failure,Low Voltage,Replace Battery Bank,Battery 12V 200Ah,Ravi,3,230290,Critical,Deferred,Awaiting spare parts
+WO-00101,BF001,Bag Filter,2024-01-18,Corrective,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Rahul,43,27169,High,Deferred,Awaiting spare parts
+WO-00102,BM001,Ball Mill,2023-03-20,Preventive,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Kiran,2,326254,Critical,Completed,Job closed as per standard checklist
+WO-00103,JC001,Jaw Crusher,2023-07-07,Routine,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Priya,1,252924,Medium,In Progress,Awaiting spare parts
+WO-00104,BM001,Ball Mill,2024-11-21,Emergency,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Ravi,23,168005,Critical,Completed,Job closed as per standard checklist
+WO-00105,BF001,Bag Filter,2023-07-14,Preventive,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Kiran,2,445552,Low,Pending,Job closed as per standard checklist
+WO-00106,JC001,Jaw Crusher,2024-09-20,Predictive,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Mahesh,6,114887,High,Completed,Job closed as per standard checklist
+WO-00107,BM001,Ball Mill,2024-07-05,Corrective,Bearing Failure,Poor Lubrication,Replace Bearing & Flush Lubrication System,Spherical Roller Bearing 23264,Priya,39,327806,Medium,Pending,Awaiting spare parts
+WO-00108,AC001,Air Compressor,2024-08-31,Predictive,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Ajay,7,325453,Critical,In Progress,Job closed as per standard checklist
+WO-00109,PU001,Centrifugal Pump,2024-06-07,Preventive,Low Flow Rate,Impeller Damage,Replace Impeller,Impeller 250mm,Kiran,32,95479,Critical,Completed,Awaiting spare parts
+WO-00110,VRM001,Vertical Roller Mill,2024-02-20,Emergency,Gearbox Noise,Gear Wear,Inspect & Replace Gear Oil,Gear Oil ISO VG 320,Ajay,7,190770,Low,Completed,Awaiting spare parts
+WO-00111,AC001,Air Compressor,2024-08-15,Emergency,Unloader Fault,Pressure Switch Failure,Replace Pressure Switch,Pressure Switch,Ajay,36,146711,High,Pending,Awaiting spare parts
+WO-00112,AC001,Air Compressor,2024-08-19,Emergency,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Suresh,30,153627,High,Deferred,Job closed as per standard checklist
+WO-00113,BC001,Belt Conveyor,2024-09-27,Emergency,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Mahesh,4,482874,Medium,Deferred,Job closed as per standard checklist
+WO-00114,JC001,Jaw Crusher,2024-02-18,Predictive,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Rahul,22,90496,Low,In Progress,Job closed as per standard checklist
+WO-00115,JC001,Jaw Crusher,2023-09-22,Emergency,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Ravi,32,175282,Medium,Completed,Awaiting spare parts
+WO-00116,AC001,Air Compressor,2023-01-01,Predictive,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Anil,18,224011,High,Deferred,Job closed as per standard checklist
+WO-00117,BE001,Bucket Elevator,2024-05-26,Corrective,Motor Overheating,Cooling Issue,Service Motor & Clean Vent,—,Kiran,34,336892,Medium,Completed,Job closed as per standard checklist
+WO-00118,RK001,Rotary Kiln,2024-10-27,Predictive,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Anil,32,363210,High,Deferred,Job closed as per standard checklist
+WO-00119,BE001,Bucket Elevator,2024-02-09,Preventive,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Ravi,26,347237,Critical,In Progress,Awaiting spare parts
+WO-00120,VRM001,Vertical Roller Mill,2023-07-06,Corrective,Separator Failure,Belt Slack,Replace Separator Belt,Separator Drive Belt,Kiran,46,114100,Medium,Deferred,Awaiting spare parts
+WO-00121,BC001,Belt Conveyor,2024-03-22,Preventive,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Rahul,15,176827,Low,Deferred,Job closed as per standard checklist
+WO-00122,ENG001,Cummins Engine,2024-05-21,Predictive,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Suresh,48,80778,Medium,In Progress,Job closed as per standard checklist
+WO-00123,VRM001,Vertical Roller Mill,2023-08-30,Routine,Gearbox Noise,Gear Wear,Inspect & Replace Gear Oil,Gear Oil ISO VG 320,Anil,40,377341,Low,Completed,Job closed as per standard checklist
+WO-00124,ENG001,Cummins Engine,2023-10-07,Predictive,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Ravi,44,288679,Medium,Deferred,Job closed as per standard checklist
+WO-00125,BE001,Bucket Elevator,2024-07-20,Emergency,Bucket Damage,Overloading,Replace Buckets (Set of 6),Polymer Bucket 8L,Suresh,22,194569,Low,Deferred,Job closed as per standard checklist
+WO-00126,PU001,Centrifugal Pump,2023-01-23,Emergency,Low Flow Rate,Impeller Damage,Replace Impeller,Impeller 250mm,Kiran,6,328150,Critical,In Progress,Job closed as per standard checklist
+WO-00127,BF001,Bag Filter,2024-12-08,Routine,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Anil,16,69473,Low,Completed,Job closed as per standard checklist
+WO-00128,PU001,Centrifugal Pump,2024-11-06,Routine,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Suresh,31,424174,Low,Deferred,Job closed as per standard checklist
+WO-00129,JC001,Jaw Crusher,2024-03-06,Emergency,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Rahul,40,439114,Low,Pending,Job closed as per standard checklist
+WO-00130,ENG001,Cummins Engine,2023-07-03,Emergency,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Priya,12,245941,Medium,Deferred,Job closed as per standard checklist
+WO-00131,PU001,Centrifugal Pump,2024-10-01,Corrective,Cavitation,NPSH Issue,Adjust Suction Valve & Clean Strainer,Suction Strainer,Suresh,32,477934,Medium,In Progress,Job closed as per standard checklist
+WO-00132,RK001,Rotary Kiln,2023-01-02,Predictive,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Ravi,39,158328,Medium,In Progress,Job closed as per standard checklist
+WO-00133,RK001,Rotary Kiln,2024-04-15,Predictive,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Suresh,21,497773,Medium,Completed,Job closed as per standard checklist
+WO-00134,BM001,Ball Mill,2023-03-29,Emergency,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Rahul,46,352897,Low,Deferred,Job closed as per standard checklist
+WO-00135,BC001,Belt Conveyor,2024-11-29,Preventive,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Mahesh,18,151877,Low,Deferred,Job closed as per standard checklist
+WO-00136,VRM001,Vertical Roller Mill,2023-10-26,Routine,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Rahul,44,262064,High,Completed,Job closed as per standard checklist
+WO-00137,BE001,Bucket Elevator,2023-10-28,Routine,Belt Slippage,Tension Loss,Adjust Take-up Weight,—,Mahesh,43,412164,Low,Deferred,Job closed as per standard checklist
+WO-00138,PU001,Centrifugal Pump,2023-11-19,Corrective,Cavitation,NPSH Issue,Adjust Suction Valve & Clean Strainer,Suction Strainer,Ravi,22,219426,Critical,In Progress,Job closed as per standard checklist
+WO-00139,ENG001,Cummins Engine,2024-08-04,Emergency,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Mahesh,13,42204,Medium,In Progress,Job closed as per standard checklist
+WO-00140,VRM001,Vertical Roller Mill,2024-12-18,Emergency,Gearbox Noise,Gear Wear,Inspect & Replace Gear Oil,Gear Oil ISO VG 320,Anil,43,85043,Medium,In Progress,Job closed as per standard checklist
+WO-00141,BC001,Belt Conveyor,2024-06-27,Preventive,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Priya,22,154618,Critical,In Progress,Job closed as per standard checklist
+WO-00142,JC001,Jaw Crusher,2024-03-29,Predictive,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Priya,38,133257,Medium,Deferred,Job closed as per standard checklist
+WO-00143,ENG001,Cummins Engine,2024-08-14,Emergency,Battery Failure,Low Voltage,Replace Battery Bank,Battery 12V 200Ah,Mahesh,28,19066,Low,Deferred,Job closed as per standard checklist
+WO-00144,RK001,Rotary Kiln,2023-04-07,Routine,Drive System Failure,Gear Wear,Inspect Drive & Replace Pinion,Kiln Pinion Gear,Ajay,27,153964,Critical,In Progress,Awaiting spare parts
+WO-00145,BE001,Bucket Elevator,2024-11-03,Emergency,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Anil,19,310157,Critical,Completed,Job closed as per standard checklist
+WO-00146,JC001,Jaw Crusher,2023-09-18,Routine,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Rahul,6,386802,Medium,In Progress,Job closed as per standard checklist
+WO-00147,BC001,Belt Conveyor,2024-04-18,Corrective,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Suresh,36,223929,High,Pending,Job closed as per standard checklist
+WO-00148,RK001,Rotary Kiln,2024-06-19,Predictive,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Mahesh,17,479674,High,Pending,Job closed as per standard checklist
+WO-00149,BM001,Ball Mill,2023-06-10,Emergency,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Ajay,37,355324,Medium,In Progress,Job closed as per standard checklist
+WO-00150,BC001,Belt Conveyor,2024-03-15,Corrective,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Anil,36,47116,Medium,Completed,Job closed as per standard checklist
+WO-00151,JC001,Jaw Crusher,2024-10-31,Predictive,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Mahesh,25,268253,Low,Pending,Job closed as per standard checklist
+WO-00152,JC001,Jaw Crusher,2024-09-08,Corrective,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Kiran,17,249119,Critical,In Progress,Job closed as per standard checklist
+WO-00153,BM001,Ball Mill,2024-08-14,Emergency,Bearing Failure,Poor Lubrication,Replace Bearing & Flush Lubrication System,Spherical Roller Bearing 23264,Ajay,25,16169,Critical,In Progress,Job closed as per standard checklist
+WO-00154,BE001,Bucket Elevator,2023-03-11,Emergency,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Rahul,40,120703,Critical,Pending,Awaiting spare parts
+WO-00155,ENG001,Cummins Engine,2024-11-29,Corrective,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Rahul,7,195912,Critical,Pending,Job closed as per standard checklist
+WO-00156,BF001,Bag Filter,2023-01-24,Routine,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Ajay,40,90685,High,Completed,Awaiting spare parts
+WO-00157,BC001,Belt Conveyor,2023-03-10,Corrective,Idler Jam,Bearing Failure,Replace Idler Roller,Carrying Idler,Anil,43,449886,Low,Pending,Awaiting spare parts
+WO-00158,BC001,Belt Conveyor,2024-08-04,Predictive,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Anil,6,359306,Critical,Pending,Awaiting spare parts
+WO-00159,ENG001,Cummins Engine,2024-12-28,Predictive,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Kiran,34,142488,Critical,In Progress,Job closed as per standard checklist
+WO-00160,JC001,Jaw Crusher,2023-10-05,Preventive,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Rahul,26,325364,High,Pending,Job closed as per standard checklist
+WO-00161,AC001,Air Compressor,2023-07-09,Corrective,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Ajay,38,370611,Critical,Completed,Job closed as per standard checklist
+WO-00162,BF001,Bag Filter,2023-03-25,Corrective,Rotary Valve Jam,Material Build-up,Clean & Service Rotary Valve,—,Mahesh,2,249196,High,Completed,Job closed as per standard checklist
+WO-00163,AC001,Air Compressor,2024-09-15,Routine,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Rahul,36,80585,Critical,Deferred,Job closed as per standard checklist
+WO-00164,VRM001,Vertical Roller Mill,2023-05-26,Emergency,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Suresh,30,440548,Low,In Progress,Job closed as per standard checklist
+WO-00165,BE001,Bucket Elevator,2024-04-01,Corrective,Belt Slippage,Tension Loss,Adjust Take-up Weight,—,Priya,39,196334,High,Pending,Job closed as per standard checklist
+WO-00166,BC001,Belt Conveyor,2023-06-19,Emergency,Idler Jam,Bearing Failure,Replace Idler Roller,Carrying Idler,Anil,18,231066,Medium,Deferred,Job closed as per standard checklist
+WO-00167,BF001,Bag Filter,2024-12-04,Predictive,Solenoid Valve Fault,Coil Burnout,Replace Solenoid Valve,Solenoid Valve 1 inch,Ravi,44,340547,Critical,Deferred,Job closed as per standard checklist
+WO-00168,JC001,Jaw Crusher,2023-02-04,Emergency,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Kiran,40,70094,Critical,Completed,Job closed as per standard checklist
+WO-00169,BE001,Bucket Elevator,2023-05-26,Preventive,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Ravi,19,473606,Critical,Pending,Job closed as per standard checklist
+WO-00170,AC001,Air Compressor,2023-04-10,Predictive,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Priya,25,389877,High,Deferred,Job closed as per standard checklist
+WO-00171,JC001,Jaw Crusher,2023-03-29,Predictive,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Suresh,5,98448,Medium,Pending,Job closed as per standard checklist
+WO-00172,RK001,Rotary Kiln,2024-05-02,Corrective,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Ajay,48,72309,High,Pending,Awaiting spare parts
+WO-00173,BF001,Bag Filter,2023-12-17,Corrective,Rotary Valve Jam,Material Build-up,Clean & Service Rotary Valve,—,Mahesh,9,156384,Critical,Deferred,Job closed as per standard checklist
+WO-00174,JC001,Jaw Crusher,2024-11-24,Preventive,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Ravi,22,390155,High,In Progress,Job closed as per standard checklist
+WO-00175,VRM001,Vertical Roller Mill,2024-05-03,Routine,Table Liner Wear,Abrasion,Replace Table Liner Segment,Liner Segment,Suresh,34,444879,Critical,Completed,Awaiting spare parts
+WO-00176,BM001,Ball Mill,2023-07-03,Corrective,Grinding Media Wear,Excessive Operation,Replace Grinding Media (3.5 Tons),High Chrome Grinding Balls,Ajay,48,205649,Critical,Pending,Job closed as per standard checklist
+WO-00177,BF001,Bag Filter,2023-11-23,Emergency,Rotary Valve Jam,Material Build-up,Clean & Service Rotary Valve,—,Anil,48,85384,Critical,In Progress,Awaiting spare parts
+WO-00178,BC001,Belt Conveyor,2024-08-09,Emergency,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Priya,30,342778,Medium,In Progress,Awaiting spare parts
+WO-00179,AC001,Air Compressor,2023-08-29,Preventive,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Priya,34,39131,Critical,Pending,Job closed as per standard checklist
+WO-00180,BM001,Ball Mill,2023-12-05,Routine,Bearing Failure,Poor Lubrication,Replace Bearing & Flush Lubrication System,Spherical Roller Bearing 23264,Suresh,22,331541,Low,Pending,Job closed as per standard checklist
+WO-00181,ENG001,Cummins Engine,2024-09-18,Emergency,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Anil,4,288710,Medium,Completed,Job closed as per standard checklist
+WO-00182,PU001,Centrifugal Pump,2024-05-30,Routine,Cavitation,NPSH Issue,Adjust Suction Valve & Clean Strainer,Suction Strainer,Ajay,34,434923,Critical,In Progress,Job closed as per standard checklist
+WO-00183,RK001,Rotary Kiln,2024-02-24,Predictive,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Ravi,21,59996,Critical,Completed,Job closed as per standard checklist
+WO-00184,RK001,Rotary Kiln,2023-01-24,Corrective,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Suresh,21,278514,Critical,Deferred,Job closed as per standard checklist
+WO-00185,VRM001,Vertical Roller Mill,2023-05-24,Preventive,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Anil,41,351486,Critical,Pending,Job closed as per standard checklist
+WO-00186,AC001,Air Compressor,2024-11-15,Emergency,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Rahul,19,339708,Low,Deferred,Job closed as per standard checklist
+WO-00187,PU001,Centrifugal Pump,2023-08-16,Emergency,Cavitation,NPSH Issue,Adjust Suction Valve & Clean Strainer,Suction Strainer,Rahul,11,113245,Low,Pending,Job closed as per standard checklist
+WO-00188,BM001,Ball Mill,2023-08-12,Predictive,Gearbox Oil Leak,Worn Seal,Replace Gearbox Seal & Top-up Oil,Oil Seal 200x240x15,Rahul,17,349251,Critical,In Progress,Awaiting spare parts
+WO-00189,BC001,Belt Conveyor,2024-06-06,Routine,Gearbox Leak,Seal Failure,Replace Gearbox Seal,Gearbox Oil Seal,Anil,43,292950,Medium,Completed,Job closed as per standard checklist
+WO-00190,BM001,Ball Mill,2023-11-23,Predictive,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Anil,6,269599,Critical,Pending,Awaiting spare parts
+WO-00191,AC001,Air Compressor,2024-09-26,Emergency,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Rahul,20,412497,Low,Completed,Job closed as per standard checklist
+WO-00192,ENG001,Cummins Engine,2024-03-11,Emergency,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Rahul,16,428479,Medium,Deferred,Awaiting spare parts
+WO-00193,BE001,Bucket Elevator,2024-09-29,Predictive,Bucket Damage,Overloading,Replace Buckets (Set of 6),Polymer Bucket 8L,Ajay,16,126617,Critical,In Progress,Awaiting spare parts
+WO-00194,ENG001,Cummins Engine,2024-06-06,Preventive,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Rahul,21,24561,Medium,In Progress,Awaiting spare parts
+WO-00195,BE001,Bucket Elevator,2023-07-21,Routine,Motor Overheating,Cooling Issue,Service Motor & Clean Vent,—,Anil,21,231637,High,Pending,Job closed as per standard checklist
+WO-00196,BE001,Bucket Elevator,2024-11-27,Routine,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Kiran,10,292656,High,Completed,Job closed as per standard checklist
+WO-00197,PU001,Centrifugal Pump,2024-02-16,Predictive,Low Flow Rate,Impeller Damage,Replace Impeller,Impeller 250mm,Mahesh,23,403142,Low,Deferred,Job closed as per standard checklist
+WO-00198,ENG001,Cummins Engine,2024-10-01,Routine,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Mahesh,39,162357,Low,In Progress,Job closed as per standard checklist
+WO-00199,AC001,Air Compressor,2023-12-12,Predictive,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Anil,42,301470,Medium,In Progress,Job closed as per standard checklist
+WO-00200,BF001,Bag Filter,2023-08-01,Predictive,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Mahesh,34,417212,High,Pending,Job closed as per standard checklist
+WO-00201,ENG001,Cummins Engine,2023-09-27,Corrective,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Mahesh,4,330747,High,Completed,Job closed as per standard checklist
+WO-00202,BF001,Bag Filter,2024-07-27,Corrective,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Ajay,30,374493,Critical,Completed,Job closed as per standard checklist
+WO-00203,VRM001,Vertical Roller Mill,2024-06-14,Predictive,Roller Wear,High Material Load,Replace Roller Tyre,Roller Tyre Assembly,Suresh,27,74015,Critical,Completed,Job closed as per standard checklist
+WO-00204,AC001,Air Compressor,2023-02-01,Preventive,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Suresh,44,370403,Medium,Deferred,Job closed as per standard checklist
+WO-00205,AC001,Air Compressor,2023-05-25,Routine,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Mahesh,44,134937,Low,Pending,Awaiting spare parts
+WO-00206,RK001,Rotary Kiln,2023-11-16,Predictive,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Priya,31,228566,High,Deferred,Job closed as per standard checklist
+WO-00207,ENG001,Cummins Engine,2023-08-21,Preventive,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Ajay,8,384038,High,Completed,Job closed as per standard checklist
+WO-00208,BC001,Belt Conveyor,2023-11-30,Emergency,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Rahul,32,122354,Low,Pending,Job closed as per standard checklist
+WO-00209,ENG001,Cummins Engine,2023-07-02,Corrective,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Kiran,30,66999,Low,Pending,Awaiting spare parts
+WO-00210,AC001,Air Compressor,2023-04-09,Emergency,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Priya,15,29025,Critical,In Progress,Job closed as per standard checklist
+WO-00211,RK001,Rotary Kiln,2023-11-01,Predictive,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Rahul,28,149571,Critical,In Progress,Job closed as per standard checklist
+WO-00212,AC001,Air Compressor,2024-11-17,Corrective,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Priya,39,411286,Critical,Deferred,Job closed as per standard checklist
+WO-00213,JC001,Jaw Crusher,2024-01-22,Emergency,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Suresh,47,435020,Low,Deferred,Job closed as per standard checklist
+WO-00214,JC001,Jaw Crusher,2023-03-13,Corrective,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Suresh,3,497523,Medium,Completed,Job closed as per standard checklist
+WO-00215,BM001,Ball Mill,2024-11-23,Predictive,Grinding Media Wear,Excessive Operation,Replace Grinding Media (3.5 Tons),High Chrome Grinding Balls,Ravi,8,389582,Low,In Progress,Job closed as per standard checklist
+WO-00216,BC001,Belt Conveyor,2023-05-03,Corrective,Gearbox Leak,Seal Failure,Replace Gearbox Seal,Gearbox Oil Seal,Ajay,18,330688,Critical,Pending,Job closed as per standard checklist
+WO-00217,BE001,Bucket Elevator,2024-04-28,Predictive,Motor Overheating,Cooling Issue,Service Motor & Clean Vent,—,Ajay,36,443986,Low,Completed,Job closed as per standard checklist
+WO-00218,BM001,Ball Mill,2024-11-15,Routine,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Ajay,5,64670,Low,Completed,Job closed as per standard checklist
+WO-00219,BC001,Belt Conveyor,2024-04-03,Predictive,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Anil,3,106537,Medium,Pending,Job closed as per standard checklist
+WO-00220,BC001,Belt Conveyor,2023-12-07,Predictive,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Mahesh,3,428399,Critical,Pending,Job closed as per standard checklist
+WO-00221,RK001,Rotary Kiln,2024-12-24,Corrective,Tyre Migration,Shell Deformation,Adjust Tyre Lubrication,Graphite Lubricant,Suresh,32,346954,Medium,Deferred,Job closed as per standard checklist
+WO-00222,BM001,Ball Mill,2023-07-10,Predictive,Grinding Media Wear,Excessive Operation,Replace Grinding Media (3.5 Tons),High Chrome Grinding Balls,Ajay,31,146300,Low,Pending,Job closed as per standard checklist
+WO-00223,BF001,Bag Filter,2023-01-29,Preventive,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Anil,3,436546,Low,Completed,Awaiting spare parts
+WO-00224,JC001,Jaw Crusher,2024-07-06,Emergency,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Ravi,2,243337,Medium,In Progress,Job closed as per standard checklist
+WO-00225,JC001,Jaw Crusher,2024-09-26,Corrective,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Rahul,14,346387,Low,Completed,Job closed as per standard checklist
+WO-00226,BF001,Bag Filter,2023-08-07,Corrective,Solenoid Valve Fault,Coil Burnout,Replace Solenoid Valve,Solenoid Valve 1 inch,Priya,17,67171,Low,Pending,Job closed as per standard checklist
+WO-00227,PU001,Centrifugal Pump,2023-07-27,Corrective,Low Flow Rate,Impeller Damage,Replace Impeller,Impeller 250mm,Anil,23,309131,Critical,In Progress,Job closed as per standard checklist
+WO-00228,AC001,Air Compressor,2024-05-16,Emergency,Unloader Fault,Pressure Switch Failure,Replace Pressure Switch,Pressure Switch,Suresh,22,432505,Critical,Deferred,Job closed as per standard checklist
+WO-00229,RK001,Rotary Kiln,2023-03-29,Routine,Tyre Migration,Shell Deformation,Adjust Tyre Lubrication,Graphite Lubricant,Anil,34,498885,Critical,Deferred,Job closed as per standard checklist
+WO-00230,AC001,Air Compressor,2024-04-24,Routine,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Rahul,15,431506,High,Pending,Awaiting spare parts
+WO-00231,BM001,Ball Mill,2024-06-15,Routine,Motor Overheating,Cooling Fan Failure,Clean Cooling System & Replace Fan,Cooling Fan Assembly,Suresh,41,54589,Critical,Deferred,Awaiting spare parts
+WO-00232,BF001,Bag Filter,2024-09-13,Preventive,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Kiran,13,126881,Critical,Pending,Awaiting spare parts
+WO-00233,BM001,Ball Mill,2023-07-21,Predictive,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Kiran,38,192282,High,Deferred,Job closed as per standard checklist
+WO-00234,VRM001,Vertical Roller Mill,2024-08-27,Emergency,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Priya,32,37175,High,Completed,Job closed as per standard checklist
+WO-00235,PU001,Centrifugal Pump,2023-08-21,Routine,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Anil,11,427909,High,In Progress,Job closed as per standard checklist
+WO-00236,AC001,Air Compressor,2024-02-16,Preventive,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Kiran,23,340487,Critical,In Progress,Awaiting spare parts
+WO-00237,BE001,Bucket Elevator,2024-09-04,Preventive,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Anil,42,270468,Medium,Completed,Job closed as per standard checklist
+WO-00238,JC001,Jaw Crusher,2024-03-24,Predictive,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Anil,44,472384,Low,Pending,Job closed as per standard checklist
+WO-00239,ENG001,Cummins Engine,2023-09-24,Predictive,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Anil,9,343885,High,In Progress,Job closed as per standard checklist
+WO-00240,ENG001,Cummins Engine,2023-12-13,Emergency,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Ajay,28,480962,Low,In Progress,Job closed as per standard checklist
+WO-00241,RK001,Rotary Kiln,2024-03-14,Corrective,Support Roller Wear,Uneven Load,Regrind Support Roller,—,Mahesh,42,234281,Low,In Progress,Job closed as per standard checklist
+WO-00242,BF001,Bag Filter,2024-01-04,Routine,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Ajay,15,262591,High,Deferred,Job closed as per standard checklist
+WO-00243,RK001,Rotary Kiln,2023-08-02,Corrective,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Ajay,3,396873,High,In Progress,Job closed as per standard checklist
+WO-00244,BF001,Bag Filter,2023-07-17,Corrective,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Ravi,9,417550,Medium,Pending,Job closed as per standard checklist
+WO-00245,VRM001,Vertical Roller Mill,2023-10-21,Corrective,Separator Failure,Belt Slack,Replace Separator Belt,Separator Drive Belt,Ravi,46,65421,Medium,Pending,Job closed as per standard checklist
+WO-00246,ENG001,Cummins Engine,2024-10-14,Predictive,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Ajay,13,128715,Low,Pending,Job closed as per standard checklist
+WO-00247,BE001,Bucket Elevator,2023-12-19,Predictive,Belt Slippage,Tension Loss,Adjust Take-up Weight,—,Priya,31,45801,Critical,Pending,Job closed as per standard checklist
+WO-00248,JC001,Jaw Crusher,2024-11-16,Emergency,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Kiran,44,299984,Critical,Pending,Job closed as per standard checklist
+WO-00249,BC001,Belt Conveyor,2023-04-02,Emergency,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Ajay,19,34971,Medium,Deferred,Job closed as per standard checklist
+WO-00250,BE001,Bucket Elevator,2024-08-14,Predictive,Belt Slippage,Tension Loss,Adjust Take-up Weight,—,Priya,19,87968,Low,Deferred,Job closed as per standard checklist
+WO-00251,AC001,Air Compressor,2024-10-16,Corrective,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Mahesh,40,432854,Medium,Pending,Job closed as per standard checklist
+WO-00252,BC001,Belt Conveyor,2023-04-01,Corrective,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Mahesh,46,226159,High,Deferred,Job closed as per standard checklist
+WO-00253,ENG001,Cummins Engine,2023-12-28,Emergency,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Anil,39,307229,Medium,In Progress,Awaiting spare parts
+WO-00254,BF001,Bag Filter,2023-05-01,Corrective,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Suresh,5,31567,Critical,Deferred,Job closed as per standard checklist
+WO-00255,AC001,Air Compressor,2024-03-21,Emergency,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Kiran,46,60430,Low,Completed,Job closed as per standard checklist
+WO-00256,VRM001,Vertical Roller Mill,2023-04-18,Emergency,Roller Wear,High Material Load,Replace Roller Tyre,Roller Tyre Assembly,Ajay,14,106588,Critical,In Progress,Job closed as per standard checklist
+WO-00257,PU001,Centrifugal Pump,2023-01-28,Corrective,Seal Leakage,Seal Wear,Replace Mechanical Seal,Mechanical Seal Type-21,Kiran,34,159992,Critical,In Progress,Job closed as per standard checklist
+WO-00258,ENG001,Cummins Engine,2024-07-17,Emergency,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Mahesh,40,395584,Medium,In Progress,Job closed as per standard checklist
+WO-00259,BF001,Bag Filter,2023-11-11,Predictive,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Suresh,20,178125,Low,Pending,Job closed as per standard checklist
+WO-00260,BF001,Bag Filter,2024-08-12,Corrective,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Ravi,31,210332,High,Pending,Awaiting spare parts
+WO-00261,RK001,Rotary Kiln,2023-11-28,Predictive,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Kiran,19,454307,High,Deferred,Job closed as per standard checklist
+WO-00262,PU001,Centrifugal Pump,2023-06-10,Emergency,Low Flow Rate,Impeller Damage,Replace Impeller,Impeller 250mm,Suresh,46,352102,High,Deferred,Awaiting spare parts
+WO-00263,BE001,Bucket Elevator,2024-04-15,Emergency,Chain Wear,Fatigue,Replace Chain (Dual Strand),Elevator Chain P=400,Priya,22,234118,High,Deferred,Job closed as per standard checklist
+WO-00264,JC001,Jaw Crusher,2023-06-30,Emergency,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Kiran,22,200378,Low,Completed,Job closed as per standard checklist
+WO-00265,AC001,Air Compressor,2023-06-30,Predictive,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Mahesh,5,263760,Medium,Pending,Job closed as per standard checklist
+WO-00266,ENG001,Cummins Engine,2023-04-12,Routine,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Rahul,24,224319,Low,Deferred,Job closed as per standard checklist
+WO-00267,AC001,Air Compressor,2023-06-19,Predictive,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Priya,25,414027,Medium,Deferred,Job closed as per standard checklist
+WO-00268,PU001,Centrifugal Pump,2023-06-17,Corrective,Low Flow Rate,Impeller Damage,Replace Impeller,Impeller 250mm,Rahul,24,314271,Critical,Completed,Job closed as per standard checklist
+WO-00269,VRM001,Vertical Roller Mill,2023-02-10,Emergency,Table Liner Wear,Abrasion,Replace Table Liner Segment,Liner Segment,Rahul,3,441418,Medium,Completed,Job closed as per standard checklist
+WO-00270,PU001,Centrifugal Pump,2023-10-13,Corrective,Cavitation,NPSH Issue,Adjust Suction Valve & Clean Strainer,Suction Strainer,Kiran,31,57384,Medium,In Progress,Job closed as per standard checklist
+WO-00271,ENG001,Cummins Engine,2023-07-13,Predictive,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Kiran,20,159329,High,Deferred,Job closed as per standard checklist
+WO-00272,VRM001,Vertical Roller Mill,2024-09-08,Corrective,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Anil,17,492625,Low,In Progress,Job closed as per standard checklist
+WO-00273,ENG001,Cummins Engine,2023-12-01,Predictive,Battery Failure,Low Voltage,Replace Battery Bank,Battery 12V 200Ah,Kiran,21,226799,Medium,Completed,Job closed as per standard checklist
+WO-00274,RK001,Rotary Kiln,2023-11-05,Routine,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Suresh,17,213080,Critical,Completed,Job closed as per standard checklist
+WO-00275,ENG001,Cummins Engine,2023-04-15,Preventive,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Kiran,42,499915,Critical,Deferred,Job closed as per standard checklist
+WO-00276,AC001,Air Compressor,2024-09-07,Predictive,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Ravi,29,36859,Low,In Progress,Job closed as per standard checklist
+WO-00277,ENG001,Cummins Engine,2024-02-06,Routine,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Kiran,10,31273,High,Deferred,Job closed as per standard checklist
+WO-00278,BM001,Ball Mill,2024-04-22,Routine,Motor Overheating,Cooling Fan Failure,Clean Cooling System & Replace Fan,Cooling Fan Assembly,Ajay,43,29091,Medium,In Progress,Job closed as per standard checklist
+WO-00279,PU001,Centrifugal Pump,2023-07-12,Predictive,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Ajay,40,276801,Critical,In Progress,Awaiting spare parts
+WO-00280,BF001,Bag Filter,2024-04-17,Corrective,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Kiran,6,146167,High,Completed,Job closed as per standard checklist
+WO-00281,JC001,Jaw Crusher,2024-09-11,Corrective,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Rahul,16,316826,Low,Completed,Job closed as per standard checklist
+WO-00282,VRM001,Vertical Roller Mill,2023-04-25,Predictive,Gearbox Noise,Gear Wear,Inspect & Replace Gear Oil,Gear Oil ISO VG 320,Ravi,2,214729,Critical,Completed,Job closed as per standard checklist
+WO-00283,ENG001,Cummins Engine,2023-01-21,Routine,Battery Failure,Low Voltage,Replace Battery Bank,Battery 12V 200Ah,Ravi,39,277176,High,Pending,Job closed as per standard checklist
+WO-00284,PU001,Centrifugal Pump,2024-06-18,Emergency,Vibration,Shaft Misalignment,Perform Laser Alignment,—,Mahesh,8,134176,Critical,Completed,Job closed as per standard checklist
+WO-00285,JC001,Jaw Crusher,2024-04-21,Routine,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Mahesh,31,249392,Low,Pending,Job closed as per standard checklist
+WO-00286,BM001,Ball Mill,2024-06-02,Preventive,Motor Overheating,Cooling Fan Failure,Clean Cooling System & Replace Fan,Cooling Fan Assembly,Anil,43,69438,Critical,In Progress,Job closed as per standard checklist
+WO-00287,BE001,Bucket Elevator,2024-12-18,Preventive,Belt Slippage,Tension Loss,Adjust Take-up Weight,—,Suresh,1,45296,Critical,Completed,Job closed as per standard checklist
+WO-00288,AC001,Air Compressor,2024-07-16,Corrective,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Kiran,33,352700,Critical,Pending,Job closed as per standard checklist
+WO-00289,PU001,Centrifugal Pump,2024-06-30,Preventive,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Mahesh,17,453994,Low,Pending,Job closed as per standard checklist
+WO-00290,RK001,Rotary Kiln,2023-02-05,Corrective,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Anil,10,343666,Critical,Pending,Job closed as per standard checklist
+WO-00291,AC001,Air Compressor,2024-02-10,Corrective,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Priya,18,257967,Critical,Pending,Job closed as per standard checklist
+WO-00292,VRM001,Vertical Roller Mill,2024-02-22,Emergency,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Kiran,36,460179,High,Completed,Job closed as per standard checklist
+WO-00293,VRM001,Vertical Roller Mill,2023-11-21,Emergency,Separator Failure,Belt Slack,Replace Separator Belt,Separator Drive Belt,Anil,47,405531,Low,Completed,Job closed as per standard checklist
+WO-00294,PU001,Centrifugal Pump,2024-02-01,Preventive,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Kiran,16,130313,Low,Deferred,Awaiting spare parts
+WO-00295,VRM001,Vertical Roller Mill,2023-09-04,Emergency,Gearbox Noise,Gear Wear,Inspect & Replace Gear Oil,Gear Oil ISO VG 320,Ravi,13,312773,Critical,Pending,Job closed as per standard checklist
+WO-00296,BE001,Bucket Elevator,2023-02-26,Preventive,Motor Overheating,Cooling Issue,Service Motor & Clean Vent,—,Ravi,6,473358,Medium,Pending,Job closed as per standard checklist
+WO-00297,PU001,Centrifugal Pump,2023-08-11,Corrective,Cavitation,NPSH Issue,Adjust Suction Valve & Clean Strainer,Suction Strainer,Rahul,46,62290,Low,Deferred,Job closed as per standard checklist
+WO-00298,BF001,Bag Filter,2024-08-30,Predictive,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Suresh,23,178307,Critical,Deferred,Job closed as per standard checklist
+WO-00299,RK001,Rotary Kiln,2024-10-16,Preventive,Drive System Failure,Gear Wear,Inspect Drive & Replace Pinion,Kiln Pinion Gear,Ajay,26,394081,High,Completed,Job closed as per standard checklist
+WO-00300,RK001,Rotary Kiln,2023-06-17,Predictive,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Priya,12,60773,Critical,Completed,Job closed as per standard checklist
+WO-00301,JC001,Jaw Crusher,2023-03-13,Emergency,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Rahul,12,475302,Critical,In Progress,Job closed as per standard checklist
+WO-00302,BC001,Belt Conveyor,2024-03-02,Routine,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Rahul,47,223379,High,Completed,Awaiting spare parts
+WO-00303,BF001,Bag Filter,2023-02-16,Emergency,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Suresh,5,172443,Medium,Deferred,Job closed as per standard checklist
+WO-00304,BC001,Belt Conveyor,2023-09-17,Routine,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Anil,46,90145,Medium,Pending,Awaiting spare parts
+WO-00305,ENG001,Cummins Engine,2024-07-20,Predictive,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Suresh,29,269774,High,Deferred,Job closed as per standard checklist
+WO-00306,VRM001,Vertical Roller Mill,2023-04-11,Predictive,Gearbox Noise,Gear Wear,Inspect & Replace Gear Oil,Gear Oil ISO VG 320,Suresh,24,321008,Critical,Completed,Job closed as per standard checklist
+WO-00307,BE001,Bucket Elevator,2024-02-07,Predictive,Bucket Damage,Overloading,Replace Buckets (Set of 6),Polymer Bucket 8L,Ajay,6,229820,High,Completed,Job closed as per standard checklist
+WO-00308,BC001,Belt Conveyor,2023-10-03,Routine,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Ravi,10,200927,Critical,Deferred,Job closed as per standard checklist
+WO-00309,BE001,Bucket Elevator,2023-09-21,Routine,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Ravi,8,446249,Low,Pending,Job closed as per standard checklist
+WO-00310,BF001,Bag Filter,2023-10-17,Corrective,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Mahesh,24,39304,High,Completed,Job closed as per standard checklist
+WO-00311,PU001,Centrifugal Pump,2024-02-08,Predictive,Seal Leakage,Seal Wear,Replace Mechanical Seal,Mechanical Seal Type-21,Kiran,13,169221,Medium,Pending,Job closed as per standard checklist
+WO-00312,BC001,Belt Conveyor,2023-01-01,Emergency,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Kiran,14,275408,Low,Deferred,Job closed as per standard checklist
+WO-00313,BC001,Belt Conveyor,2024-06-08,Predictive,Idler Jam,Bearing Failure,Replace Idler Roller,Carrying Idler,Anil,47,446166,Critical,In Progress,Awaiting spare parts
+WO-00314,ENG001,Cummins Engine,2024-10-26,Corrective,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Suresh,22,371392,High,Deferred,Job closed as per standard checklist
+WO-00315,BE001,Bucket Elevator,2024-08-21,Emergency,Chain Wear,Fatigue,Replace Chain (Dual Strand),Elevator Chain P=400,Priya,22,259191,High,Deferred,Job closed as per standard checklist
+WO-00316,BM001,Ball Mill,2023-06-10,Corrective,Motor Overheating,Cooling Fan Failure,Clean Cooling System & Replace Fan,Cooling Fan Assembly,Ravi,13,150435,Low,Completed,Awaiting spare parts
+WO-00317,ENG001,Cummins Engine,2023-09-25,Preventive,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Priya,38,174338,Low,In Progress,Job closed as per standard checklist
+WO-00318,RK001,Rotary Kiln,2023-09-09,Routine,Support Roller Wear,Uneven Load,Regrind Support Roller,—,Anil,21,347861,Critical,Deferred,Job closed as per standard checklist
+WO-00319,VRM001,Vertical Roller Mill,2024-01-04,Routine,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Anil,9,421414,Medium,Completed,Job closed as per standard checklist
+WO-00320,BM001,Ball Mill,2023-10-07,Preventive,Grinding Media Wear,Excessive Operation,Replace Grinding Media (3.5 Tons),High Chrome Grinding Balls,Rahul,25,48977,Low,Completed,Job closed as per standard checklist
+WO-00321,JC001,Jaw Crusher,2024-02-16,Preventive,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Suresh,34,86772,Low,Pending,Awaiting spare parts
+WO-00322,PU001,Centrifugal Pump,2024-02-01,Emergency,Low Flow Rate,Impeller Damage,Replace Impeller,Impeller 250mm,Mahesh,31,307854,High,Deferred,Job closed as per standard checklist
+WO-00323,AC001,Air Compressor,2024-02-04,Emergency,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Priya,23,434298,Medium,Completed,Job closed as per standard checklist
+WO-00324,BM001,Ball Mill,2024-02-22,Preventive,Motor Overheating,Cooling Fan Failure,Clean Cooling System & Replace Fan,Cooling Fan Assembly,Ravi,30,252030,Critical,Deferred,Job closed as per standard checklist
+WO-00325,BF001,Bag Filter,2023-02-05,Routine,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Mahesh,14,490042,Critical,Completed,Job closed as per standard checklist
+WO-00326,VRM001,Vertical Roller Mill,2024-04-11,Routine,Roller Wear,High Material Load,Replace Roller Tyre,Roller Tyre Assembly,Mahesh,24,139177,Critical,Deferred,Job closed as per standard checklist
+WO-00327,AC001,Air Compressor,2023-03-21,Predictive,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Priya,40,30403,Critical,Pending,Job closed as per standard checklist
+WO-00328,BM001,Ball Mill,2024-10-08,Predictive,Gearbox Oil Leak,Worn Seal,Replace Gearbox Seal & Top-up Oil,Oil Seal 200x240x15,Suresh,18,196774,Critical,Deferred,Job closed as per standard checklist
+WO-00329,JC001,Jaw Crusher,2024-12-11,Corrective,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Ajay,46,226209,Low,In Progress,Job closed as per standard checklist
+WO-00330,ENG001,Cummins Engine,2023-06-14,Emergency,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Ravi,27,449198,Low,Completed,Job closed as per standard checklist
+WO-00331,JC001,Jaw Crusher,2024-04-05,Predictive,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Suresh,20,219826,Critical,Pending,Awaiting spare parts
+WO-00332,AC001,Air Compressor,2024-09-09,Routine,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Ajay,20,393775,High,Deferred,Awaiting spare parts
+WO-00333,PU001,Centrifugal Pump,2023-01-27,Emergency,Vibration,Shaft Misalignment,Perform Laser Alignment,—,Priya,24,445138,High,Pending,Job closed as per standard checklist
+WO-00334,JC001,Jaw Crusher,2023-09-16,Corrective,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Ajay,38,134711,Medium,Deferred,Job closed as per standard checklist
+WO-00335,PU001,Centrifugal Pump,2024-04-28,Routine,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Anil,45,278486,High,In Progress,Awaiting spare parts
+WO-00336,JC001,Jaw Crusher,2023-07-11,Corrective,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Mahesh,24,341062,High,Completed,Job closed as per standard checklist
+WO-00337,BM001,Ball Mill,2023-08-26,Emergency,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Kiran,16,33653,Medium,Completed,Awaiting spare parts
+WO-00338,RK001,Rotary Kiln,2024-07-24,Preventive,Tyre Migration,Shell Deformation,Adjust Tyre Lubrication,Graphite Lubricant,Anil,40,295524,Medium,In Progress,Job closed as per standard checklist
+WO-00339,JC001,Jaw Crusher,2023-08-19,Predictive,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Mahesh,41,499264,Critical,In Progress,Job closed as per standard checklist
+WO-00340,BM001,Ball Mill,2023-03-25,Routine,Grinding Media Wear,Excessive Operation,Replace Grinding Media (3.5 Tons),High Chrome Grinding Balls,Rahul,13,149237,Critical,Completed,Job closed as per standard checklist
+WO-00341,BC001,Belt Conveyor,2023-07-08,Corrective,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Priya,44,378384,Low,Pending,Job closed as per standard checklist
+WO-00342,BE001,Bucket Elevator,2023-02-13,Corrective,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Rahul,25,256548,Medium,Completed,Job closed as per standard checklist
+WO-00343,AC001,Air Compressor,2024-05-30,Routine,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Rahul,25,31886,Critical,Deferred,Job closed as per standard checklist
+WO-00344,RK001,Rotary Kiln,2023-01-08,Predictive,Drive System Failure,Gear Wear,Inspect Drive & Replace Pinion,Kiln Pinion Gear,Priya,3,36424,High,Deferred,Job closed as per standard checklist
+WO-00345,BF001,Bag Filter,2023-09-23,Corrective,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Suresh,28,147966,High,In Progress,Job closed as per standard checklist
+WO-00346,JC001,Jaw Crusher,2024-09-23,Routine,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Mahesh,35,128331,Critical,Completed,Job closed as per standard checklist
+WO-00347,BE001,Bucket Elevator,2023-07-06,Predictive,Bucket Damage,Overloading,Replace Buckets (Set of 6),Polymer Bucket 8L,Rahul,10,495480,High,Completed,Job closed as per standard checklist
+WO-00348,ENG001,Cummins Engine,2023-10-03,Predictive,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Ajay,9,148125,Low,Completed,Job closed as per standard checklist
+WO-00349,BM001,Ball Mill,2024-08-05,Emergency,Gearbox Oil Leak,Worn Seal,Replace Gearbox Seal & Top-up Oil,Oil Seal 200x240x15,Ajay,35,199533,High,Deferred,Job closed as per standard checklist
+WO-00350,BC001,Belt Conveyor,2024-04-07,Routine,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Ajay,14,434907,High,Pending,Job closed as per standard checklist
+WO-00351,BF001,Bag Filter,2023-03-22,Corrective,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Suresh,32,281575,Low,Pending,Job closed as per standard checklist
+WO-00352,BE001,Bucket Elevator,2023-03-06,Emergency,Chain Wear,Fatigue,Replace Chain (Dual Strand),Elevator Chain P=400,Ajay,17,333161,Low,Completed,Job closed as per standard checklist
+WO-00353,BM001,Ball Mill,2023-09-26,Predictive,Gearbox Oil Leak,Worn Seal,Replace Gearbox Seal & Top-up Oil,Oil Seal 200x240x15,Kiran,25,343404,Critical,Pending,Job closed as per standard checklist
+WO-00354,BM001,Ball Mill,2024-12-17,Emergency,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Kiran,46,363993,Low,Pending,Job closed as per standard checklist
+WO-00355,BE001,Bucket Elevator,2023-07-14,Emergency,Motor Overheating,Cooling Issue,Service Motor & Clean Vent,—,Rahul,25,210180,High,Completed,Awaiting spare parts
+WO-00356,BE001,Bucket Elevator,2023-05-10,Emergency,Motor Overheating,Cooling Issue,Service Motor & Clean Vent,—,Priya,5,391791,Medium,Pending,Job closed as per standard checklist
+WO-00357,JC001,Jaw Crusher,2024-05-23,Emergency,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Kiran,28,61829,Medium,Completed,Job closed as per standard checklist
+WO-00358,PU001,Centrifugal Pump,2024-08-22,Predictive,Cavitation,NPSH Issue,Adjust Suction Valve & Clean Strainer,Suction Strainer,Ravi,20,321272,High,Deferred,Job closed as per standard checklist
+WO-00359,BF001,Bag Filter,2023-08-08,Predictive,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Suresh,13,309310,Medium,In Progress,Job closed as per standard checklist
+WO-00360,BC001,Belt Conveyor,2024-12-30,Predictive,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Rahul,35,143673,High,In Progress,Awaiting spare parts
+WO-00361,BM001,Ball Mill,2023-11-17,Routine,Grinding Media Wear,Excessive Operation,Replace Grinding Media (3.5 Tons),High Chrome Grinding Balls,Kiran,41,322666,High,Deferred,Job closed as per standard checklist
+WO-00362,VRM001,Vertical Roller Mill,2023-01-26,Routine,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Kiran,31,311853,High,In Progress,Job closed as per standard checklist
+WO-00363,ENG001,Cummins Engine,2023-10-11,Emergency,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Suresh,37,146046,High,Deferred,Job closed as per standard checklist
+WO-00364,BE001,Bucket Elevator,2024-07-08,Emergency,Chain Wear,Fatigue,Replace Chain (Dual Strand),Elevator Chain P=400,Suresh,5,392937,Medium,Deferred,Job closed as per standard checklist
+WO-00365,AC001,Air Compressor,2024-06-10,Routine,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Rahul,48,158802,Medium,Completed,Awaiting spare parts
+WO-00366,RK001,Rotary Kiln,2023-01-10,Preventive,Support Roller Wear,Uneven Load,Regrind Support Roller,—,Suresh,7,430150,High,Completed,Job closed as per standard checklist
+WO-00367,BM001,Ball Mill,2024-09-15,Routine,Gearbox Oil Leak,Worn Seal,Replace Gearbox Seal & Top-up Oil,Oil Seal 200x240x15,Ravi,18,223955,Medium,In Progress,Job closed as per standard checklist
+WO-00368,JC001,Jaw Crusher,2023-08-19,Emergency,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Ajay,15,125886,High,Deferred,Awaiting spare parts
+WO-00369,BE001,Bucket Elevator,2024-08-04,Routine,Bucket Damage,Overloading,Replace Buckets (Set of 6),Polymer Bucket 8L,Priya,27,171924,High,Deferred,Job closed as per standard checklist
+WO-00370,VRM001,Vertical Roller Mill,2023-06-06,Preventive,Table Liner Wear,Abrasion,Replace Table Liner Segment,Liner Segment,Kiran,31,378520,Medium,Deferred,Job closed as per standard checklist
+WO-00371,BE001,Bucket Elevator,2023-11-22,Predictive,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Kiran,20,255750,Critical,Completed,Job closed as per standard checklist
+WO-00372,BC001,Belt Conveyor,2024-12-14,Preventive,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Ajay,47,327978,Medium,Pending,Job closed as per standard checklist
+WO-00373,JC001,Jaw Crusher,2024-09-02,Corrective,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Ajay,2,155559,Medium,In Progress,Job closed as per standard checklist
+WO-00374,VRM001,Vertical Roller Mill,2023-03-18,Emergency,Table Liner Wear,Abrasion,Replace Table Liner Segment,Liner Segment,Kiran,41,254351,Low,Deferred,Job closed as per standard checklist
+WO-00375,BC001,Belt Conveyor,2024-04-23,Predictive,Idler Jam,Bearing Failure,Replace Idler Roller,Carrying Idler,Mahesh,37,180624,Medium,Completed,Job closed as per standard checklist
+WO-00376,RK001,Rotary Kiln,2023-04-05,Predictive,Support Roller Wear,Uneven Load,Regrind Support Roller,—,Kiran,20,490831,Critical,In Progress,Job closed as per standard checklist
+WO-00377,ENG001,Cummins Engine,2023-09-09,Routine,Battery Failure,Low Voltage,Replace Battery Bank,Battery 12V 200Ah,Rahul,30,208875,Critical,In Progress,Awaiting spare parts
+WO-00378,AC001,Air Compressor,2024-07-23,Preventive,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Suresh,21,122838,High,Deferred,Awaiting spare parts
+WO-00379,ENG001,Cummins Engine,2023-10-05,Routine,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Kiran,1,404284,Critical,In Progress,Job closed as per standard checklist
+WO-00380,BC001,Belt Conveyor,2024-04-05,Emergency,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Rahul,34,177710,Low,In Progress,Awaiting spare parts
+WO-00381,JC001,Jaw Crusher,2023-04-22,Corrective,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Rahul,27,474244,Low,Completed,Job closed as per standard checklist
+WO-00382,BM001,Ball Mill,2024-02-24,Routine,Motor Overheating,Cooling Fan Failure,Clean Cooling System & Replace Fan,Cooling Fan Assembly,Ajay,6,108012,Low,Pending,Job closed as per standard checklist
+WO-00383,BM001,Ball Mill,2023-01-09,Emergency,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Ajay,22,83759,Critical,Pending,Job closed as per standard checklist
+WO-00384,JC001,Jaw Crusher,2024-12-13,Predictive,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Kiran,43,335267,Critical,Completed,Job closed as per standard checklist
+WO-00385,JC001,Jaw Crusher,2023-03-24,Preventive,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Kiran,10,169164,High,Completed,Job closed as per standard checklist
+WO-00386,BE001,Bucket Elevator,2023-04-05,Corrective,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Mahesh,16,247552,High,In Progress,Awaiting spare parts
+WO-00387,PU001,Centrifugal Pump,2023-05-27,Corrective,Seal Leakage,Seal Wear,Replace Mechanical Seal,Mechanical Seal Type-21,Ajay,38,230098,Critical,In Progress,Awaiting spare parts
+WO-00388,AC001,Air Compressor,2023-12-25,Predictive,Air Filter Clog,Dust Load,Replace Air Filter,Air Filter Element,Rahul,25,65928,High,Completed,Job closed as per standard checklist
+WO-00389,VRM001,Vertical Roller Mill,2024-01-21,Corrective,Separator Failure,Belt Slack,Replace Separator Belt,Separator Drive Belt,Anil,11,169544,Critical,In Progress,Job closed as per standard checklist
+WO-00390,VRM001,Vertical Roller Mill,2023-04-24,Preventive,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Priya,28,24617,Low,Deferred,Job closed as per standard checklist
+WO-00391,ENG001,Cummins Engine,2023-03-07,Predictive,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Suresh,39,144547,Low,Pending,Job closed as per standard checklist
+WO-00392,BM001,Ball Mill,2023-12-07,Routine,Grinding Media Wear,Excessive Operation,Replace Grinding Media (3.5 Tons),High Chrome Grinding Balls,Suresh,46,233819,Medium,Deferred,Job closed as per standard checklist
+WO-00393,BE001,Bucket Elevator,2023-04-12,Corrective,Motor Overheating,Cooling Issue,Service Motor & Clean Vent,—,Priya,19,487768,Low,Pending,Job closed as per standard checklist
+WO-00394,JC001,Jaw Crusher,2023-01-01,Preventive,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Priya,33,390743,Low,In Progress,Job closed as per standard checklist
+WO-00395,BM001,Ball Mill,2024-10-25,Predictive,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Priya,20,42464,High,Completed,Job closed as per standard checklist
+WO-00396,ENG001,Cummins Engine,2023-11-03,Predictive,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Kiran,46,95945,Critical,Deferred,Job closed as per standard checklist
+WO-00397,JC001,Jaw Crusher,2024-09-09,Emergency,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Ajay,38,289378,Low,Pending,Awaiting spare parts
+WO-00398,PU001,Centrifugal Pump,2023-10-15,Corrective,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Priya,42,60225,High,Completed,Awaiting spare parts
+WO-00399,BM001,Ball Mill,2023-08-09,Routine,Bearing Failure,Poor Lubrication,Replace Bearing & Flush Lubrication System,Spherical Roller Bearing 23264,Rahul,7,399266,Critical,Pending,Job closed as per standard checklist
+WO-00400,BC001,Belt Conveyor,2024-12-07,Routine,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Kiran,30,275641,Medium,Deferred,Job closed as per standard checklist
+WO-00401,VRM001,Vertical Roller Mill,2023-11-10,Predictive,Roller Wear,High Material Load,Replace Roller Tyre,Roller Tyre Assembly,Priya,5,349169,Critical,In Progress,Job closed as per standard checklist
+WO-00402,JC001,Jaw Crusher,2023-04-03,Predictive,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Ravi,32,96732,Medium,In Progress,Awaiting spare parts
+WO-00403,VRM001,Vertical Roller Mill,2024-10-25,Predictive,Table Liner Wear,Abrasion,Replace Table Liner Segment,Liner Segment,Anil,18,200897,Medium,In Progress,Job closed as per standard checklist
+WO-00404,ENG001,Cummins Engine,2024-03-31,Corrective,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Mahesh,2,129797,Low,Completed,Job closed as per standard checklist
+WO-00405,RK001,Rotary Kiln,2023-04-18,Predictive,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Mahesh,34,457552,High,Deferred,Job closed as per standard checklist
+WO-00406,ENG001,Cummins Engine,2024-03-07,Predictive,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Mahesh,38,103251,High,Completed,Job closed as per standard checklist
+WO-00407,JC001,Jaw Crusher,2023-02-07,Preventive,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Ajay,40,310847,High,Pending,Job closed as per standard checklist
+WO-00408,BC001,Belt Conveyor,2024-06-01,Predictive,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Priya,36,69317,Medium,Deferred,Job closed as per standard checklist
+WO-00409,VRM001,Vertical Roller Mill,2023-06-29,Emergency,Separator Failure,Belt Slack,Replace Separator Belt,Separator Drive Belt,Suresh,23,195805,Medium,Deferred,Job closed as per standard checklist
+WO-00410,AC001,Air Compressor,2023-01-13,Routine,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Mahesh,30,18047,Low,Completed,Job closed as per standard checklist
+WO-00411,VRM001,Vertical Roller Mill,2023-09-21,Corrective,Hydraulic Pressure Drop,Hydraulic Leak,Repair Hydraulic System & Replace Hose,Hydraulic Hose 1/2 inch,Kiran,8,326184,Medium,Completed,Job closed as per standard checklist
+WO-00412,AC001,Air Compressor,2023-02-06,Predictive,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Mahesh,18,166158,Low,Deferred,Job closed as per standard checklist
+WO-00413,RK001,Rotary Kiln,2024-07-02,Predictive,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Suresh,36,363530,High,Deferred,Awaiting spare parts
+WO-00414,BM001,Ball Mill,2023-07-08,Routine,Bearing Failure,Poor Lubrication,Replace Bearing & Flush Lubrication System,Spherical Roller Bearing 23264,Kiran,7,194553,High,In Progress,Job closed as per standard checklist
+WO-00415,BF001,Bag Filter,2024-01-26,Preventive,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Ravi,2,270839,Low,Pending,Awaiting spare parts
+WO-00416,AC001,Air Compressor,2023-01-30,Corrective,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Ajay,45,342239,Medium,Pending,Job closed as per standard checklist
+WO-00417,ENG001,Cummins Engine,2024-08-20,Emergency,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Ravi,29,410114,Medium,Completed,Awaiting spare parts
+WO-00418,BE001,Bucket Elevator,2023-05-27,Emergency,Chain Wear,Fatigue,Replace Chain (Dual Strand),Elevator Chain P=400,Anil,26,229048,Low,Pending,Job closed as per standard checklist
+WO-00419,BF001,Bag Filter,2024-09-26,Preventive,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Ajay,32,288270,Medium,Completed,Job closed as per standard checklist
+WO-00420,AC001,Air Compressor,2023-01-18,Routine,Unloader Fault,Pressure Switch Failure,Replace Pressure Switch,Pressure Switch,Kiran,26,449679,Low,Pending,Job closed as per standard checklist
+WO-00421,BC001,Belt Conveyor,2023-09-06,Routine,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Kiran,20,102682,High,In Progress,Job closed as per standard checklist
+WO-00422,BF001,Bag Filter,2023-10-08,Predictive,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Rahul,46,236241,High,In Progress,Job closed as per standard checklist
+WO-00423,ENG001,Cummins Engine,2024-05-25,Predictive,Alternator Fault,Diode Failure,Replace Alternator Diode,Diode Assembly,Ravi,23,185879,Medium,In Progress,Job closed as per standard checklist
+WO-00424,AC001,Air Compressor,2024-05-05,Routine,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Mahesh,7,161183,Low,In Progress,Awaiting spare parts
+WO-00425,ENG001,Cummins Engine,2024-06-09,Routine,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Ravi,38,271411,High,In Progress,Job closed as per standard checklist
+WO-00426,VRM001,Vertical Roller Mill,2024-09-11,Emergency,Separator Failure,Belt Slack,Replace Separator Belt,Separator Drive Belt,Rahul,27,476811,Medium,Completed,Job closed as per standard checklist
+WO-00427,VRM001,Vertical Roller Mill,2023-12-03,Routine,Table Liner Wear,Abrasion,Replace Table Liner Segment,Liner Segment,Kiran,40,102670,Critical,Deferred,Awaiting spare parts
+WO-00428,JC001,Jaw Crusher,2023-04-11,Emergency,Flywheel Misalignment,Belt Wear,Replace V-Belts,V-Belt C-180,Ravi,45,313883,Medium,In Progress,Job closed as per standard checklist
+WO-00429,JC001,Jaw Crusher,2024-04-13,Corrective,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Ajay,47,125110,Critical,In Progress,Job closed as per standard checklist
+WO-00430,BC001,Belt Conveyor,2024-11-05,Routine,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Rahul,4,367885,High,Deferred,Job closed as per standard checklist
+WO-00431,RK001,Rotary Kiln,2024-02-06,Emergency,Tyre Migration,Shell Deformation,Adjust Tyre Lubrication,Graphite Lubricant,Rahul,47,235005,Critical,In Progress,Awaiting spare parts
+WO-00432,PU001,Centrifugal Pump,2023-05-14,Preventive,Vibration,Shaft Misalignment,Perform Laser Alignment,—,Rahul,16,407416,Low,In Progress,Job closed as per standard checklist
+WO-00433,BC001,Belt Conveyor,2023-02-09,Predictive,Belt Damage,Material Impact,Vulcanize Belt Joint,Conveyor Belt 1200mm,Mahesh,26,81469,Low,Pending,Job closed as per standard checklist
+WO-00434,ENG001,Cummins Engine,2024-03-09,Preventive,Battery Failure,Low Voltage,Replace Battery Bank,Battery 12V 200Ah,Rahul,12,287863,Medium,Completed,Job closed as per standard checklist
+WO-00435,JC001,Jaw Crusher,2023-06-25,Routine,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Ravi,24,213465,Critical,Completed,Job closed as per standard checklist
+WO-00436,RK001,Rotary Kiln,2023-03-18,Predictive,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Rahul,44,205063,Medium,Completed,Job closed as per standard checklist
+WO-00437,PU001,Centrifugal Pump,2023-03-07,Corrective,Vibration,Shaft Misalignment,Perform Laser Alignment,—,Priya,24,488502,Critical,In Progress,Awaiting spare parts
+WO-00438,JC001,Jaw Crusher,2024-10-06,Routine,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Rahul,8,297720,Low,Deferred,Job closed as per standard checklist
+WO-00439,RK001,Rotary Kiln,2024-12-01,Preventive,Drive System Failure,Gear Wear,Inspect Drive & Replace Pinion,Kiln Pinion Gear,Ravi,40,452602,Medium,Pending,Job closed as per standard checklist
+WO-00440,BM001,Ball Mill,2023-05-11,Predictive,Bearing Failure,Poor Lubrication,Replace Bearing & Flush Lubrication System,Spherical Roller Bearing 23264,Priya,1,39675,High,Deferred,Job closed as per standard checklist
+WO-00441,BC001,Belt Conveyor,2023-01-26,Predictive,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Mahesh,47,158420,Critical,In Progress,Job closed as per standard checklist
+WO-00442,VRM001,Vertical Roller Mill,2024-12-21,Emergency,Gearbox Noise,Gear Wear,Inspect & Replace Gear Oil,Gear Oil ISO VG 320,Priya,26,433522,High,Deferred,Job closed as per standard checklist
+WO-00443,BC001,Belt Conveyor,2024-12-12,Preventive,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Ajay,37,315255,Critical,Pending,Job closed as per standard checklist
+WO-00444,BF001,Bag Filter,2024-10-30,Corrective,Pressure Drop,Filter Damage,Replace Damaged Filter Bags,Filter Bag 130x2450,Priya,46,21730,Critical,Completed,Job closed as per standard checklist
+WO-00445,JC001,Jaw Crusher,2024-07-18,Corrective,Toggle Plate Breakage,Overload,Replace Toggle Plate,Toggle Plate,Ajay,38,98821,Low,Deferred,Job closed as per standard checklist
+WO-00446,BE001,Bucket Elevator,2024-04-18,Routine,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Rahul,36,158298,High,Deferred,Job closed as per standard checklist
+WO-00447,PU001,Centrifugal Pump,2023-08-09,Preventive,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Anil,35,279513,High,In Progress,Job closed as per standard checklist
+WO-00448,AC001,Air Compressor,2023-01-30,Emergency,Temperature Rise,Cooling Problem,Clean Cooler & Replace Coolant,Coolant 20L,Kiran,3,121084,High,In Progress,Awaiting spare parts
+WO-00449,JC001,Jaw Crusher,2024-08-16,Predictive,Motor Failure,Electrical Fault,Rewind Motor,Motor 75 kW,Anil,47,193838,High,Deferred,Job closed as per standard checklist
+WO-00450,AC001,Air Compressor,2023-09-07,Corrective,Oil Leakage,Seal Failure,Replace Oil Seal,Oil Seal 60x80x10,Ravi,40,472602,Low,Deferred,Job closed as per standard checklist
+WO-00451,RK001,Rotary Kiln,2024-03-20,Emergency,Refractory Damage,Thermal Stress,Repair Refractory Lining (5 m²),High Alumina Bricks,Priya,37,235644,Medium,In Progress,Awaiting spare parts
+WO-00452,RK001,Rotary Kiln,2024-05-11,Corrective,Support Roller Wear,Uneven Load,Regrind Support Roller,—,Kiran,10,90021,Critical,Deferred,Job closed as per standard checklist
+WO-00453,RK001,Rotary Kiln,2023-08-15,Routine,Drive System Failure,Gear Wear,Inspect Drive & Replace Pinion,Kiln Pinion Gear,Kiran,28,179898,High,Completed,Job closed as per standard checklist
+WO-00454,JC001,Jaw Crusher,2023-11-21,Corrective,High Vibration,Loose Mounting,Tighten Foundation Bolts,—,Ravi,40,115412,Medium,Pending,Job closed as per standard checklist
+WO-00455,PU001,Centrifugal Pump,2024-11-14,Corrective,Cavitation,NPSH Issue,Adjust Suction Valve & Clean Strainer,Suction Strainer,Suresh,9,234475,Critical,Completed,Job closed as per standard checklist
+WO-00456,BM001,Ball Mill,2023-05-18,Preventive,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Ajay,45,284105,Medium,Completed,Job closed as per standard checklist
+WO-00457,ENG001,Cummins Engine,2023-09-16,Emergency,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Suresh,20,448547,Critical,Completed,Job closed as per standard checklist
+WO-00458,BF001,Bag Filter,2024-05-27,Routine,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Mahesh,3,409365,High,Completed,Job closed as per standard checklist
+WO-00459,ENG001,Cummins Engine,2024-11-01,Corrective,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Priya,46,315621,Medium,Completed,Job closed as per standard checklist
+WO-00460,ENG001,Cummins Engine,2023-12-23,Emergency,Fuel Leakage,Fuel Line Damage,Repair Fuel Line,Fuel Injector Pipe,Suresh,30,66633,Critical,Completed,Job closed as per standard checklist
+WO-00461,RK001,Rotary Kiln,2023-03-04,Predictive,Support Roller Wear,Uneven Load,Regrind Support Roller,—,Suresh,5,458939,Medium,Completed,Job closed as per standard checklist
+WO-00462,BC001,Belt Conveyor,2023-01-20,Predictive,Drive Motor Trip,Overload,Check Motor & Reduce Load,—,Mahesh,43,120896,High,Pending,Job closed as per standard checklist
+WO-00463,VRM001,Vertical Roller Mill,2024-05-16,Emergency,Separator Failure,Belt Slack,Replace Separator Belt,Separator Drive Belt,Priya,46,123209,Critical,Completed,Awaiting spare parts
+WO-00464,VRM001,Vertical Roller Mill,2024-04-19,Corrective,Separator Failure,Belt Slack,Replace Separator Belt,Separator Drive Belt,Suresh,6,195067,Low,Completed,Job closed as per standard checklist
+WO-00465,RK001,Rotary Kiln,2024-01-30,Emergency,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Rahul,31,376563,Low,Pending,Job closed as per standard checklist
+WO-00466,BC001,Belt Conveyor,2024-12-27,Preventive,Gearbox Leak,Seal Failure,Replace Gearbox Seal,Gearbox Oil Seal,Ravi,37,140191,Medium,Deferred,Job closed as per standard checklist
+WO-00467,ENG001,Cummins Engine,2023-03-17,Emergency,Oil Pressure Drop,Oil Pump Wear,Replace Oil Pump & Filter,Oil Filter LF9001,Kiran,6,60254,High,Deferred,Awaiting spare parts
+WO-00468,BE001,Bucket Elevator,2024-06-12,Predictive,Bucket Damage,Overloading,Replace Buckets (Set of 6),Polymer Bucket 8L,Kiran,36,148179,Critical,Pending,Job closed as per standard checklist
+WO-00469,AC001,Air Compressor,2023-10-15,Preventive,Unloader Fault,Pressure Switch Failure,Replace Pressure Switch,Pressure Switch,Priya,30,79448,Critical,Completed,Job closed as per standard checklist
+WO-00470,ENG001,Cummins Engine,2023-10-06,Routine,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Ajay,22,141608,High,In Progress,Awaiting spare parts
+WO-00471,RK001,Rotary Kiln,2023-12-17,Emergency,Drive System Failure,Gear Wear,Inspect Drive & Replace Pinion,Kiln Pinion Gear,Suresh,25,415604,Critical,Completed,Job closed as per standard checklist
+WO-00472,BF001,Bag Filter,2023-02-21,Corrective,Fan Failure,Bearing Fault,Replace Fan Bearings,SKF 22220 Bearing,Priya,11,79343,Medium,Pending,Awaiting spare parts
+WO-00473,BF001,Bag Filter,2023-06-16,Preventive,Solenoid Valve Fault,Coil Burnout,Replace Solenoid Valve,Solenoid Valve 1 inch,Anil,15,252004,Critical,Pending,Job closed as per standard checklist
+WO-00474,BE001,Bucket Elevator,2023-12-31,Routine,Belt Slippage,Tension Loss,Adjust Take-up Weight,—,Mahesh,8,330584,High,In Progress,Job closed as per standard checklist
+WO-00475,ENG001,Cummins Engine,2024-11-20,Preventive,Engine Overheating,Coolant Issue,Replace Coolant & Thermostat,Thermostat 71°C,Priya,15,373227,Medium,Pending,Job closed as per standard checklist
+WO-00476,BM001,Ball Mill,2023-08-24,Corrective,Gearbox Oil Leak,Worn Seal,Replace Gearbox Seal & Top-up Oil,Oil Seal 200x240x15,Ajay,21,110051,High,Pending,Awaiting spare parts
+WO-00477,BM001,Ball Mill,2023-09-04,Preventive,Motor Overheating,Cooling Fan Failure,Clean Cooling System & Replace Fan,Cooling Fan Assembly,Rahul,23,204365,Low,In Progress,Awaiting spare parts
+WO-00478,VRM001,Vertical Roller Mill,2024-11-21,Preventive,Separator Failure,Belt Slack,Replace Separator Belt,Separator Drive Belt,Suresh,27,367671,Low,Completed,Job closed as per standard checklist
+WO-00479,BF001,Bag Filter,2024-05-30,Preventive,Rotary Valve Jam,Material Build-up,Clean & Service Rotary Valve,—,Ajay,7,406833,High,Pending,Awaiting spare parts
+WO-00480,BF001,Bag Filter,2023-02-11,Predictive,Rotary Valve Jam,Material Build-up,Clean & Service Rotary Valve,—,Ajay,30,279904,Low,Completed,Job closed as per standard checklist
+WO-00481,BF001,Bag Filter,2024-05-13,Routine,Filter Blockage,Dust Accumulation,Clean Filter Bags (Set of 50),PPS Filter Bag,Rahul,34,490717,High,Completed,Awaiting spare parts
+WO-00482,VRM001,Vertical Roller Mill,2024-02-07,Corrective,Table Liner Wear,Abrasion,Replace Table Liner Segment,Liner Segment,Priya,4,299387,Medium,Deferred,Job closed as per standard checklist
+WO-00483,RK001,Rotary Kiln,2023-11-30,Routine,Tyre Migration,Shell Deformation,Adjust Tyre Lubrication,Graphite Lubricant,Ravi,37,407974,Medium,In Progress,Job closed as per standard checklist
+WO-00484,BM001,Ball Mill,2024-06-26,Corrective,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Priya,2,270804,Critical,In Progress,Job closed as per standard checklist
+WO-00485,RK001,Rotary Kiln,2024-06-03,Predictive,Temperature Fluctuation,Burner Issue,Calibrate Burner & Adjust Flame,Burner Nozzle,Mahesh,12,86178,Critical,Completed,Job closed as per standard checklist
+WO-00486,BC001,Belt Conveyor,2024-06-17,Preventive,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Kiran,47,374800,High,Deferred,Job closed as per standard checklist
+WO-00487,PU001,Centrifugal Pump,2023-08-04,Corrective,Bearing Noise,Bearing Wear,Replace Bearings,SKF 6310 Bearing,Priya,33,205754,Critical,Pending,Job closed as per standard checklist
+WO-00488,AC001,Air Compressor,2023-09-23,Preventive,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Mahesh,2,235644,Medium,Completed,Awaiting spare parts
+WO-00489,BF001,Bag Filter,2023-09-15,Corrective,Solenoid Valve Fault,Coil Burnout,Replace Solenoid Valve,Solenoid Valve 1 inch,Suresh,12,358661,Medium,Completed,Job closed as per standard checklist
+WO-00490,BC001,Belt Conveyor,2023-12-17,Emergency,Belt Misalignment,Roller Issue,Adjust Rollers & Training Idlers,Training Idler,Ajay,3,282954,Critical,Deferred,Job closed as per standard checklist
+WO-00491,ENG001,Cummins Engine,2023-06-24,Preventive,Battery Failure,Low Voltage,Replace Battery Bank,Battery 12V 200Ah,Suresh,6,374568,Medium,Pending,Awaiting spare parts
+WO-00492,BE001,Bucket Elevator,2024-03-08,Routine,Belt Slippage,Tension Loss,Adjust Take-up Weight,—,Suresh,10,379842,High,In Progress,Job closed as per standard checklist
+WO-00493,PU001,Centrifugal Pump,2024-11-14,Preventive,Vibration,Shaft Misalignment,Perform Laser Alignment,—,Suresh,12,301052,Medium,Pending,Job closed as per standard checklist
+WO-00494,BM001,Ball Mill,2024-03-12,Routine,Bearing Failure,Poor Lubrication,Replace Bearing & Flush Lubrication System,Spherical Roller Bearing 23264,Mahesh,1,24899,Low,Completed,Job closed as per standard checklist
+WO-00495,BM001,Ball Mill,2024-02-04,Predictive,Shell Liner Damage,Material Erosion,Replace Affected Liner Plates,Lifter Liner Plates,Anil,12,438371,Medium,Completed,Job closed as per standard checklist
+WO-00496,AC001,Air Compressor,2024-04-07,Predictive,Pressure Loss,Valve Leakage,Replace Intake Valve,Intake Valve Kit,Anil,16,486490,Critical,Deferred,Job closed as per standard checklist
+WO-00497,BM001,Ball Mill,2024-09-06,Predictive,Motor Overheating,Cooling Fan Failure,Clean Cooling System & Replace Fan,Cooling Fan Assembly,Ajay,22,258910,High,Deferred,Job closed as per standard checklist
+WO-00498,BE001,Bucket Elevator,2023-02-07,Corrective,Chain Wear,Fatigue,Replace Chain (Dual Strand),Elevator Chain P=400,Kiran,28,439608,Medium,Completed,Job closed as per standard checklist
+WO-00499,JC001,Jaw Crusher,2023-07-19,Preventive,Jaw Plate Wear,Abrasion,Replace Fixed & Swing Jaw Plates,Manganese Jaw Plate Set,Rahul,11,81145,Low,Deferred,Job closed as per standard checklist
+WO-00500,BE001,Bucket Elevator,2023-03-04,Predictive,Sprocket Wear,Chain Misalignment,Replace Drive Sprocket,Sprocket Z=12,Ajay,19,71510,Low,Pending,Job closed as per standard checklist

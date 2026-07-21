@@ -1,0 +1,25 @@
+DocumentID,FileName,EquipmentID,EquipmentName,Department,DocumentType,Category,Description
+DOC001,Ball_Mill_Operation_Manual.pdf,BM-101,Ball Mill,Production,Manual,Equipment Manual,Operation and maintenance manual for Ball Mill
+DOC002,Centrifugal_Pump_Operation_Manual.pdf,P-101,Centrifugal Pump,Utilities,Manual,Equipment Manual,Operation and maintenance manual for Centrifugal Pump
+DOC003,Vertical_Roller_Mill_Manual.pdf,VRM-101,Vertical Roller Mill,Production,Manual,Equipment Manual,VRM operation and maintenance manual
+DOC004,Jaw_Crusher_Operation_Manual.pdf,JC-101,Jaw Crusher,Production,Manual,Equipment Manual,Jaw Crusher operation manual
+DOC005,Belt_Conveyor_Operation_Manual.pdf,BC-101,Belt Conveyor,Material Handling,Manual,Equipment Manual,Belt Conveyor operation manual
+DOC006,Bucket_Elevator_Manual.pdf,BE-101,Bucket Elevator,Material Handling,Manual,Equipment Manual,Bucket Elevator operation manual
+DOC007,Bag_Filter_Maintenance_Manual.pdf,BF-101,Bag Filter,Environment,Manual,Equipment Manual,Bag Filter maintenance manual
+DOC008,Cummins_Engine_Manual.pdf,CE-101,Cummins Engine,Utilities,Manual,Equipment Manual,Cummins engine manual
+DOC009,Air_Compressor_Maintenance_Manual.pdf,AC-101,Air Compressor,Utilities,Manual,Equipment Manual,Air compressor maintenance manual
+DOC010,Rotary_Kiln_Operation_Manual.pdf,RK-101,Rotary Kiln,Production,Manual,Equipment Manual,Rotary kiln operation manual
+DOC011,Gearbox_Manual.pdf,GB-101,Gearbox,Maintenance,Manual,Equipment Manual,Industrial gearbox manual
+DOC012,Ball_Mill_Operation_SOP.pdf,BM-101,Ball Mill,Production,SOP,SOP,Ball mill operation procedure
+DOC013,Rotary_Kiln_Startup_Shutdown_Operation_SOP.pdf,RK-101,Rotary Kiln,Production,SOP,SOP,Rotary kiln startup and shutdown procedure
+DOC014,VRM_Operation_SOP.pdf,VRM-101,Vertical Roller Mill,Production,SOP,SOP,VRM operation procedure
+DOC015,Jaw_Crusher_Operation_SOP.pdf,JC-101,Jaw Crusher,Production,SOP,SOP,Jaw crusher operation procedure
+DOC016,Air_Compressor_Maintenance_SOP.pdf,AC-101,Air Compressor,Utilities,SOP,SOP,Air compressor maintenance procedure
+DOC017,Fire_Emergency_Response_SOP.pdf,ALL,Plant Wide,Safety,SOP,Emergency SOP,Fire emergency response procedure
+DOC018,Gearbox_Lubrication_SOP.pdf,GB-101,Gearbox,Maintenance,SOP,SOP,Gearbox lubrication procedure
+DOC019,Factory_Act_Guidelines.pdf,ALL,Plant Wide,Administration,Regulation,Regulation,Factory Act guidelines
+DOC020,PPE_Guidelines.pdf,ALL,Plant Wide,Safety,Regulation,Regulation,PPE guidelines
+DOC021,Fire_Safety_Guidelines.pdf,ALL,Plant Wide,Safety,Regulation,Regulation,Fire safety guidelines
+DOC022,Emergency_Response_Plan.pdf,ALL,Plant Wide,Safety,Regulation,Regulation,Emergency response plan
+DOC023,maintenance_data_500.csv,MULTI,All Equipment,Maintenance,Dataset,CSV,Historical maintenance records
+DOC024,inspection_data_500.csv,MULTI,All Equipment,Inspection,Dataset,CSV,Historical inspection records
