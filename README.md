@@ -80,7 +80,7 @@ User Query → ChromaDB → Relevant Chunks → Gemini → Response
 Visualizes relationships among equipment, manuals, SOPs, maintenance, inspections and regulations using NetworkX and Plotly.
 
 ### Demo video
-"D:\potlu\Videos\ET_demo_video.mp4"
+https://drive.google.com/file/d/1VAADwn_NrqHIE4Bn0Yl_aRSGOrEL2j6Y/view?usp=sharing
 
 ## Dataset
 
