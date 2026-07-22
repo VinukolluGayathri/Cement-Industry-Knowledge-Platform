@@ -79,6 +79,9 @@ User Query → ChromaDB → Relevant Chunks → Gemini → Response
 ### Knowledge Graph
 Visualizes relationships among equipment, manuals, SOPs, maintenance, inspections and regulations using NetworkX and Plotly.
 
+### Demo video
+"D:\potlu\Videos\ET_demo_video.mp4"
+
 ## Dataset
 
 - Manuals (PDF)
