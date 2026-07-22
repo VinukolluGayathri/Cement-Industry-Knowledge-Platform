@@ -6,7 +6,7 @@ from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from loader import IndustrialLoader
+from backend.loader import IndustrialLoader
 
 
 load_dotenv()

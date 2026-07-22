@@ -1,168 +1,3 @@
-# import os
-# import pandas as pd
-# from pypdf import PdfReader
-# from docx import Document as DocxDocument
-# from langchain_core.documents import Document
-
-
-# class IndustrialLoader:
-
-#     def __init__(self):
-#         self.base_path = "data"
-
-#     def read_pdf(self, path):
-
-#         text = ""
-
-#         reader = PdfReader(path)
-
-#         for page in reader.pages:
-
-#             page_text = page.extract_text()
-
-#             if page_text:
-#                 text += page_text + "\n"
-
-#         return text
-
-#     def read_docx(self, path):
-
-#         doc = DocxDocument(path)
-
-#         text = ""
-
-#         for para in doc.paragraphs:
-#             text += para.text + "\n"
-
-#         return text
-
-#     def read_csv(self, path):
-
-#         df = pd.read_csv(path)
-
-#         return df.to_string(index=False)
-
-#     def load_documents(self):
-
-#         documents = []
-
-#         folders = {
-
-#             "manuals": [".pdf"],
-
-#             "sops": [".pdf", ".docx"],
-
-#             "regulations": [".pdf"]
-
-#         }
-
-#         for folder, extensions in folders.items():
-
-#             folder_path = os.path.join(self.base_path, folder)
-
-#             for file in os.listdir(folder_path):
-
-#                 if any(file.lower().endswith(ext) for ext in extensions):
-
-#                     full_path = os.path.join(folder_path, file)
-
-#                     if file.endswith(".pdf"):
-
-#                         text = self.read_pdf(full_path)
-
-#                     else:
-
-#                         text = self.read_docx(full_path)
-
-#                     documents.append(
-
-#                         Document(
-
-#                             page_content=text,
-
-#                             metadata={
-
-#                                 "source": file,
-
-#                                 "category": folder
-
-#                             }
-
-#                         )
-
-#                     )
-
-#         csv_folders = [
-
-#             "maintenance_logs",
-
-#             "inspection_reports",
-
-#             "incident_reports"
-
-#         ]
-
-#         for folder in csv_folders:
-
-#             folder_path = os.path.join(self.base_path, folder)
-
-#             for file in os.listdir(folder_path):
-
-#                 if file.endswith(".csv"):
-
-#                     full_path = os.path.join(folder_path, file)
-
-#                     text = self.read_csv(full_path)
-
-#                     documents.append(
-
-#                         Document(
-
-#                             page_content=text,
-
-#                             metadata={
-
-#                                 "source": file,
-
-#                                 "category": folder
-
-#                             }
-
-#                         )
-
-#                     )
-
-#         return documents
-
-
-# if __name__ == "__main__":
-
-#     loader = IndustrialLoader()
-
-#     docs = loader.load_documents()
-
-#     print("="*70)
-
-#     print("TOTAL DOCUMENTS :", len(docs))
-
-#     print("="*70)
-
-#     for d in docs:
-
-#         print(d.metadata)
-
-#     print("\n")
-
-#     print(docs[0].page_content[:500])
-
-#     loader = IndustrialLoader()
-#     docs = loader.load_documents()
-
-#     for doc in docs:
-#         print(
-#             f"{doc.metadata['source']:<45} {len(doc.page_content):>8} characters"
-#         )
-
 import os
 import pandas as pd
 from pypdf import PdfReader
@@ -215,6 +50,9 @@ class IndustrialLoader:
 
             folder_path = os.path.join(self.base_path, folder)
 
+            if not os.path.exists(folder_path):
+                continue
+
             for file in os.listdir(folder_path):
 
                 if not any(file.lower().endswith(ext) for ext in extensions):
@@ -255,6 +93,9 @@ class IndustrialLoader:
         for folder in csv_folders:
 
             folder_path = os.path.join(self.base_path, folder)
+
+            if not os.path.exists(folder_path):
+                continue
 
             for file in os.listdir(folder_path):
 

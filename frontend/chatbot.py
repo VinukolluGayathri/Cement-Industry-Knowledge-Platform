@@ -1,118 +1,259 @@
 import time
+from collections import Counter
+
 import streamlit as st
 
-# Import backend RAG
 from backend.rag import IndustrialRAG
 
 
-# --------------------------------------------------
+# ------------------------------------------------------------
 # Load RAG only once
-# --------------------------------------------------
+# ------------------------------------------------------------
+
 @st.cache_resource
 def load_rag():
     return IndustrialRAG(debug=False)
 
 
-# --------------------------------------------------
+# ------------------------------------------------------------
+# Helper Function
+# ------------------------------------------------------------
+
+def get_icon(category):
+
+    icons = {
+        "manuals": "📘",
+        "sops": "📄",
+        "maintenance_logs": "⚙️",
+        "inspection_reports": "🔎",
+        "incident_reports": "⚠️",
+        "regulations": "📑"
+    }
+
+    return icons.get(category, "📄")
+
+
+# ------------------------------------------------------------
+# Sidebar
+# ------------------------------------------------------------
+
+def sidebar():
+
+    st.sidebar.title("🏭 Cement Industry AI")
+
+    st.sidebar.success("Backend Connected")
+
+    st.sidebar.markdown("---")
+
+    st.sidebar.subheader("⚙ System Information")
+
+    st.sidebar.write("**LLM** : Gemini Flash")
+    st.sidebar.write("**Embeddings** : MiniLM-L6-v2")
+    st.sidebar.write("**Vector DB** : ChromaDB")
+    st.sidebar.write("**Knowledge Base** : Cement Plant")
+
+    st.sidebar.markdown("---")
+
+    if st.sidebar.button("🗑 Clear Conversation"):
+
+        st.session_state.messages = []
+
+        st.rerun()
+
+
+# ------------------------------------------------------------
 # Chatbot Page
-# --------------------------------------------------
+# ------------------------------------------------------------
+
 def show_chatbot():
+
+    sidebar()
+
+    rag = load_rag()
 
     st.header("🤖 Industrial AI Assistant")
 
-    st.markdown("""
-Ask questions about:
+    st.caption(
+        "Ask questions about Equipment Manuals, SOPs, "
+        "Maintenance Logs, Inspection Reports, Incident Reports and Regulations."
+    )
 
-- 📘 Equipment Manuals
-- 📄 SOPs
-- ⚙ Maintenance Records
-- 🔍 Inspection Reports
-- ⚠ Incident Reports
-- 📑 Government Regulations
+    with st.expander("💡 Example Questions"):
+
+        st.markdown("""
+- How do I start the rotary kiln?
+- Explain the startup procedure for the Rotary Kiln.
+- What is the use of Bucket Elevator?
+- Show maintenance information for BM001.
+- Show inspection report for ENG001.
+- Explain Ball Mill.
+- List incidents related to VRM001.
+- Explain the purpose of the Cummins Engine.
 """)
 
     st.divider()
 
-    rag = load_rag()
+    # ------------------------------------------------------------
+    # Session State
+    # ------------------------------------------------------------
 
-    question = st.text_input(
-        "Ask your question",
-        placeholder="Example: Explain the startup procedure for the Rotary Kiln."
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+
+    # ------------------------------------------------------------
+    # Show Previous Conversation
+    # ------------------------------------------------------------
+
+    for msg in st.session_state.messages:
+
+        with st.chat_message(msg["role"]):
+
+            st.markdown(msg["content"])
+
+            if msg["role"] == "assistant":
+
+                if "sources" in msg:
+
+                    with st.expander("📄 Source Documents"):
+
+                        for source, category, chunks in msg["sources"]:
+
+                            icon = get_icon(category)
+
+                            st.write(
+                                f"{icon} **{source}** ({category}) • {chunks} chunk(s)"
+                            )
+
+                    col1, col2, col3 = st.columns(3)
+
+                    col1.metric(
+                        "Knowledge Sources",
+                        msg["source_count"]
+                    )
+
+                    col2.metric(
+                        "Retrieved Chunks",
+                        msg["chunks"]
+                    )
+
+                    col3.metric(
+                        "Response Time",
+                        f"{msg['time']:.2f} sec"
+                    )
+
+    # ------------------------------------------------------------
+    # User Input
+    # ------------------------------------------------------------
+
+    prompt = st.chat_input(
+        "Ask something about the cement plant..."
     )
 
-    col1, col2 = st.columns([1, 5])
+    if prompt:
 
-    with col1:
-        ask = st.button("🚀 Ask AI")
+        st.session_state.messages.append(
+            {
+                "role": "user",
+                "content": prompt
+            }
+        )
 
-    if ask:
+        with st.chat_message("user"):
+            st.markdown(prompt)
 
-        if question.strip() == "":
-            st.warning("Please enter a question.")
-            return
+        with st.chat_message("assistant"):
 
-        start = time.time()
+            with st.spinner("Searching industrial knowledge base..."):
 
-        with st.spinner("Searching industrial knowledge base..."):
+                start = time.time()
 
-            try:
+                try:
 
-                answer, sources, docs = rag.ask(question)
+                    answer, sources, docs = rag.ask(prompt)
+
+                except Exception as e:
+
+                    st.error(str(e))
+                    return
 
                 elapsed = round(time.time() - start, 2)
 
-            except Exception as e:
+            st.markdown(answer)
 
-                st.error(f"Error : {e}")
-                return
+            # --------------------------------------------------------
+            # Count Chunks Per Source
+            # --------------------------------------------------------
 
-        # ---------------- Answer ---------------- #
+            counter = Counter()
 
-        st.success("Answer")
+            for doc in docs:
+                counter[doc.metadata.get("source")] += 1
 
-        st.markdown(answer)
+            source_info = []
 
-        # ---------------- Sources ---------------- #
+            with st.expander("📄 Source Documents"):
 
-        st.divider()
+                if len(sources) == 0:
 
-        st.subheader("📄 Source Documents")
+                    st.info("No supporting documents found.")
 
-        if len(sources) == 0:
+                else:
 
-            st.info("No supporting documents found.")
+                    for source, category in sources:
 
-        else:
+                        chunks = counter[source]
 
-            for source, category in sources:
+                        source_info.append(
+                            (
+                                source,
+                                category,
+                                chunks
+                            )
+                        )
 
-                icon = "📘"
+                        st.write(
+                            f"{get_icon(category)} "
+                            f"**{source}** "
+                            f"({category}) • "
+                            f"{chunks} chunk(s)"
+                        )
 
-                if category == "sops":
-                    icon = "📄"
+            col1, col2, col3 = st.columns(3)
 
-                elif category == "maintenance_logs":
-                    icon = "⚙"
+            col1.metric(
+                "Knowledge Sources",
+                len(sources)
+            )
 
-                elif category == "inspection_reports":
-                    icon = "🔍"
+            col2.metric(
+                "Retrieved Chunks",
+                len(docs)
+            )
 
-                elif category == "incident_reports":
-                    icon = "⚠"
+            col3.metric(
+                "Response Time",
+                f"{elapsed:.2f} sec"
+            )
 
-                elif category == "regulations":
-                    icon = "📑"
+        # ------------------------------------------------------------
+        # Save Assistant Response
+        # ------------------------------------------------------------
 
-                st.write(f"{icon} **{source}**  ({category})")
+        st.session_state.messages.append(
 
-        st.divider()
+            {
+                "role": "assistant",
 
-        # ---------------- Metrics ---------------- #
+                "content": answer,
 
-        col1, col2 = st.columns(2)
+                "sources": source_info,
 
-        with col1:
-            st.metric("Documents Retrieved", len(docs))
+                "source_count": len(sources),
 
-        with col2:
-            st.metric("Response Time", f"{elapsed} sec")
+                "chunks": len(docs),
+
+                "time": elapsed
+
+            }
+
+        )
